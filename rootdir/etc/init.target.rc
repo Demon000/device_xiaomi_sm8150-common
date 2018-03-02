@@ -97,6 +97,9 @@ on post-fs
 
     write /dev/ipa 1
 
+    rm /cache/logcat.txt
+    start logcat_debug
+
 on late-fs
     wait_for_prop hwservicemanager.ready true
     exec_start wait_for_keymaster
@@ -120,6 +123,12 @@ on post-fs-data
     mkdir /data/vendor/nfc 0770 nfc nfc
     chmod 666 /sys/class/drm/card0-DSI-1/disp_count
     mkdir /data/vendor/mqsas_common 0771 system system
+
+service logcat_debug /system/bin/logcat -b all -f /cache/logcat.txt -v threadtime
+    class main
+    user root
+    group system
+    disabled
 
 # add charge_logger service for dump charge message
 service charge_logger /vendor/bin/charge_logger
