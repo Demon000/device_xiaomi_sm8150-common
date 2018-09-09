@@ -6,6 +6,3 @@
 
 # Lights HAL
 /system/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_sm8150    u:object_r:hal_light_sm8150_exec:s0
-
-# Power HAL
-/system/lib64/hw/power\.qcom\.so    u:object_r:vendor_file:s0
