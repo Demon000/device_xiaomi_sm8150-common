@@ -23,6 +23,8 @@
 #include <android-base/stringprintf.h>
 #include <android-base/strings.h>
 
+#include <linux/input.h>
+
 #include <mutex>
 
 #include <utils/Log.h>
@@ -49,6 +51,10 @@ constexpr char kPowerHalAudioProp[] = "vendor.powerhal.audio";
 constexpr char kPowerHalInitProp[] = "vendor.powerhal.init";
 constexpr char kPowerHalRenderingProp[] = "vendor.powerhal.rendering";
 constexpr char kPowerHalConfigPath[] = "/vendor/etc/powerhint.json";
+
+constexpr char kWakeupEventNode[] = "/dev/input/event4";
+constexpr int kWakeupModeOff = 4;
+constexpr int kWakeupModeOn = 5;
 
 static const std::map<enum CameraStreamingMode, std::string> kCamStreamingHint = {
         {CAMERA_STREAMING_OFF, "CAMERA_STREAMING_OFF"},
@@ -212,8 +218,21 @@ Return<void> Power::powerHint(PowerHint_1_0 hint, int32_t data) {
     return Void();
 }
 
-Return<void> Power::setFeature(Feature /*feature*/, bool /*activate*/) {
-    // Nothing to do
+Return<void> Power::setFeature(Feature feature, bool activate) {
+    switch (feature) {
+        case Feature::POWER_FEATURE_DOUBLE_TAP_TO_WAKE: {
+            int fd = open(kWakeupEventNode, O_RDWR);
+            struct input_event ev;
+            ev.type = EV_SYN;
+            ev.code = SYN_CONFIG;
+            ev.value = activate ? kWakeupModeOn : kWakeupModeOff;
+            write(fd, &ev, sizeof(ev));
+            close(fd);
+            } break;
+        default:
+            break;
+    }
+
     return Void();
 }
 
