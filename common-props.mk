@@ -115,6 +115,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     vendor.gralloc.disable_ubwc=0
 
+# IMS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1  \
+    persist.dbg.wfc_avail_ovr=1
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.video=true \
