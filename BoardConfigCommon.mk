@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := xiaomi
 
-COMMON_PATH := device/xiaomi/sdm845-common
+COMMON_PATH := device/xiaomi/sm8150-common
 
 # Architecture
 TARGET_ARCH := arm64
@@ -24,7 +24,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a75
 TARGET_USES_64_BIT_BINDER := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := sdm845
+TARGET_BOOTLOADER_BOARD_NAME := sm8150
 TARGET_NO_BOOTLOADER := true
 
 # Kernel
@@ -38,12 +38,12 @@ TARGET_KERNEL_ARCH := arm64
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
+  TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8150
 endif
 
 # Platform
-#TARGET_BOARD_PLATFORM := sdm845
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno630
+#TARGET_BOARD_PLATFORM := sm8150
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
 # Audio
 AUDIO_FEATURE_ENABLED_AAC_ADTS_OFFLOAD := true
@@ -136,4 +136,4 @@ BOARD_VNDK_VERSION := current
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # Inherit from the proprietary version
--include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
+-include vendor/xiaomi/sm8150-common/BoardConfigVendor.mk
