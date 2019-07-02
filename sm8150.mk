@@ -37,7 +37,8 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc
+    init.qcom.rc \
+    init.mi_thermald.rc
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
