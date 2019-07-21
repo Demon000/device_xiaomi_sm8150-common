@@ -42,7 +42,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
 endif
 
 # Platform
-#TARGET_BOARD_PLATFORM := sm8150
+TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
 # Audio
