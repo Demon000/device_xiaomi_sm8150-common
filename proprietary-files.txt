@@ -300,8 +300,6 @@ vendor/bin/xiaomi_extend_cmd
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
-vendor/build.prop
-vendor/default.prop
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
