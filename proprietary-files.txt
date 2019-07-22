@@ -382,7 +382,6 @@ vendor/etc/dsi_samsung_fhd_ea8076_f1p2_2_cmd_display_mi.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1p2_cmd_display_mi.xml
 vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
-vendor/etc/fstab.qcom
 vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_qrd
 vendor/etc/gpfspath_oem_config.xml
