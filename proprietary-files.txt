@@ -384,7 +384,6 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
 vendor/etc/fs_config_dirs
 vendor/etc/fs_config_files
-vendor/etc/fstab.qcom
 vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_qrd
 vendor/etc/gpfspath_oem_config.xml
