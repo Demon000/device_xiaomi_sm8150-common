@@ -382,15 +382,12 @@ vendor/etc/dsi_samsung_fhd_ea8076_f1p2_2_cmd_display_mi.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1p2_cmd_display_mi.xml
 vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
-vendor/etc/fs_config_dirs
-vendor/etc/fs_config_files
 vendor/etc/fstab.qcom
 vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_qrd
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
 vendor/etc/graphite_ipc_platform_info.xml
-vendor/etc/group
 vendor/etc/ha/ifaa/provision_create_sd.json
 vendor/etc/ha/ifaa/provision_get_device_state.json
 vendor/etc/ha/ifaa/provision_install_ha_ifaa.json
@@ -508,7 +505,6 @@ vendor/etc/mixer_paths_tavil.xml
 vendor/etc/mkshrc
 vendor/etc/msm_irqbalance.conf
 vendor/etc/nebula-license.dat
-vendor/etc/passwd
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfboostsconfigmi.xml
