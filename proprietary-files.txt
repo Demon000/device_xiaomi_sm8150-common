@@ -89,7 +89,6 @@ vendor/bin/adsprpcd
 vendor/bin/athdiag
 vendor/bin/audioflacapp
 vendor/bin/audioshell_service
-vendor/bin/awk
 vendor/bin/batteryd
 vendor/bin/btconfig
 vendor/bin/cameratest
@@ -120,7 +119,6 @@ vendor/bin/fmfactorytestserver
 vendor/bin/fstman
 vendor/bin/ftmdaemon
 vendor/bin/garden_app
-vendor/bin/grep
 vendor/bin/hal_proxy_daemon
 vendor/bin/hbtp_daemon
 vendor/bin/hci_qcomm_init
@@ -263,7 +261,6 @@ vendor/bin/set2dfa
 vendor/bin/setup_headsetmic2headphone.sh
 vendor/bin/setup_mainmic2headphone.sh
 vendor/bin/setup_topmic2headphone.sh
-vendor/bin/sh
 vendor/bin/sigma_dut
 vendor/bin/slim_daemon
 vendor/bin/SoterProvisioningTool
@@ -281,9 +278,7 @@ vendor/bin/thermal-engine
 vendor/bin/thermal_factory
 vendor/bin/tidad@1.2
 vendor/bin/time_daemon
-vendor/bin/toolbox
 vendor/bin/toucheventcheck
-vendor/bin/toybox_vendor
 vendor/bin/tp_data_collect.sh
 vendor/bin/tp_selftest.sh
 vendor/bin/vendor.qti.hardware.soter@1.0-provision
@@ -501,7 +496,6 @@ vendor/etc/mixer_paths_overlay_dynamic.xml
 vendor/etc/mixer_paths_overlay_static.xml
 vendor/etc/mixer_paths_pahu.xml
 vendor/etc/mixer_paths_tavil.xml
-vendor/etc/mkshrc
 vendor/etc/msm_irqbalance.conf
 vendor/etc/nebula-license.dat
 vendor/etc/perf/commonresourceconfigs.xml
