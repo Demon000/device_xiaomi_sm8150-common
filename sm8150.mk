@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libvulkan
 
+# Fstab
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
