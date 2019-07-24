@@ -1,9 +1,0 @@
-type hal_citsensorservice_xiaomi_hwservice, hwservice_manager_type;
-type hal_displayfeature_xiaomi_hwservice, hwservice_manager_type;
-type hal_mfidoca_hwservice, hwservice_manager_type;
-type hal_misys_hwservice, hwservice_manager_type;
-type hal_mlipay_hwservice, hwservice_manager_type;
-type hal_mtdservice_hwservice, hwservice_manager_type;
-type hal_tidaservice_hwservice, hwservice_manager_type;
-type hal_vsimapp_hwservice, hwservice_manager_type;
-type hal_wifi_keystore_hwservice, hwservice_manager_type;

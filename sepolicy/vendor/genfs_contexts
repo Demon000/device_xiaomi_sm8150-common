@@ -1,7 +1,0 @@
-genfscon proc /bus/input/last_touch_events u:object_r:proc_last_touch_events:s0
-genfscon proc /tp_selftest u:object_r:proc_tp_selftest:s0
-genfscon debugfs /tzdbg u:object_r:debugfs_tzdbg:s0
-genfscon proc /uid_cputime/show_sys_app_stat u:object_r:proc_uid_cputime_showstat:s0
-genfscon sysfs /bootinfo u:object_r:sysfs_bootinfo:s0
-genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0 u:object_r:sysfs_devices_block:s0
-genfscon sysfs /devices/platform/soc/890000.i2c/i2c-0/0-003b/power_supply/idt u:object_r:sysfs_battery_supply:s0

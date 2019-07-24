@@ -1,2 +1,0 @@
-type goodix_fingerprint_vndservice, vndservice_manager_type;
-type remosaic_daemon_service, vndservice_manager_type;
