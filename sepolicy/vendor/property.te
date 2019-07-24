@@ -1,0 +1,8 @@
+type fs_prop, property_type;
+type minidump64_prop, property_type;
+type qseelog_prop, property_type;
+type sys_panel_info_prop, property_type;
+type thermal_normal_prop, property_type;
+type vendor_2dfa_prop, property_type;
+type vendor_displayfeature_prop, property_type;
+type vendor_fp_prop, property_type;
