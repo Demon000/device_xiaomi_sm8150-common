@@ -81,7 +81,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.btstack.enable.splita2dp=true \
     persist.vendor.btstack.enable.twsplus=true \
     ro.bluetooth.emb_wp_mode=false \
-    ro.bluetooth.library_name=libbluetooth_qti.so \
     ro.bluetooth.wipower=false \
     vendor.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee
