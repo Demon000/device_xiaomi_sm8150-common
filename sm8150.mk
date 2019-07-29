@@ -93,11 +93,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
-# Common init scripts
-PRODUCT_PACKAGES += \
-    init.qcom.rc \
-    init.mi_thermald.rc
-
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
