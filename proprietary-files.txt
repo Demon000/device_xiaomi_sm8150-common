@@ -335,7 +335,6 @@ vendor/etc/permissions/android.software.sip.voip.xml
 vendor/etc/permissions/com.android.nfc_extras.xml
 vendor/etc/permissions/com.nxp.mifare.xml
 vendor/etc/permissions/handheld_core_hardware.xml
-vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/etc/powerhint.xml
 vendor/etc/public.libraries.txt
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
@@ -454,7 +453,6 @@ vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/hw/thermal.msmnile.so
 vendor/lib/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
@@ -870,7 +868,6 @@ vendor/lib/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib/vendor.qti.hardware.data.qmi@1.0.so
-vendor/lib/vendor.qti.hardware.factory@1.0.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
@@ -1086,7 +1083,6 @@ vendor/lib64/hw/sound_trigger.primary.msmnile.so
 vendor/lib64/hw/thermal.msmnile.so
 vendor/lib64/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.factory@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
@@ -1512,7 +1508,6 @@ vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
-vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
