@@ -729,9 +729,6 @@ vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
 vendor/lib/libsdmutils.so
 vendor/lib/libsdsprpc.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libSecureUILib.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsettings.so
 vendor/lib/libsi.so
@@ -753,7 +750,6 @@ vendor/lib/libssccalapi.so
 vendor/lib/libssd.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libstagefrighthw.so
-vendor/lib/libStDrvInt.so
 vendor/lib/libstreamparser.so
 vendor/lib/libsubsystem_control.so
 vendor/lib/libSubSystemShutdown.so
@@ -898,7 +894,6 @@ vendor/lib/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
 vendor/lib/vendor.qti.ims.callinfo@1.0.so
@@ -1404,9 +1399,6 @@ vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libsdmutils.so
 vendor/lib64/libsdsprpc.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libSecureUILib.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsettings.so
@@ -1427,7 +1419,6 @@ vendor/lib64/libssccalapi.so
 vendor/lib64/libssd.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/libstagefrighthw.so
-vendor/lib64/libStDrvInt.so
 vendor/lib64/libsubsystem_control.so
 vendor/lib64/libSubSystemShutdown.so
 vendor/lib64/libSuperSensor.so
@@ -1545,7 +1536,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
