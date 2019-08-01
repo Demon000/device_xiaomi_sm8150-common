@@ -396,7 +396,6 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/egl/libQTapGLES.so
-vendor/lib/ftm_fm_lib.so
 vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib/hw/android.hardware.audio@2.0-impl.so
@@ -1024,7 +1023,6 @@ vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/egl/libQTapGLES.so
-vendor/lib64/ftm_fm_lib.so
 vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib64/hw/android.hardware.audio@2.0-impl.so
