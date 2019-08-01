@@ -453,7 +453,6 @@ vendor/lib/hw/power.default.so
 vendor/lib/hw/power.qcom.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/hw/thermal.msmnile.so
-vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so
@@ -870,7 +869,6 @@ vendor/lib/vendor.display.config@1.5.so
 vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/vendor.qti.data.factory@1.0.so
-vendor/lib/vendor.qti.esepowermanager@1.0.so
 vendor/lib/vendor.qti.gnss@1.0.so
 vendor/lib/vendor.qti.gnss@1.1.so
 vendor/lib/vendor.qti.gnss@1.2.so
@@ -1100,7 +1098,6 @@ vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.qcom.so
 vendor/lib64/hw/sound_trigger.primary.msmnile.so
 vendor/lib64/hw/thermal.msmnile.so
-vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib64/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.factory@1.0-impl.so
@@ -1526,7 +1523,6 @@ vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
 vendor/lib64/vendor.qti.data.factory@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.gnss@1.0.so
 vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
