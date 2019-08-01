@@ -902,7 +902,6 @@ vendor/lib/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib/vendor.qti.hardware.seccam@1.0.so
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/lib/vendor.qti.hardware.soter@1.0.so
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
@@ -1555,7 +1554,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib64/vendor.qti.hardware.seccam@1.0.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
