@@ -475,7 +475,6 @@ vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmm-omxcore.so
 vendor/lib/libmmosal_proprietary.so
 vendor/lib/libMpeg4SwEncoder.so
-vendor/lib/libmt.so
 vendor/lib/libmulawdec.so
 vendor/lib/libnanopb.so
 vendor/lib/libnbaio_mono.so
@@ -1055,8 +1054,6 @@ vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libMpeg4SwEncoder.so
-vendor/lib64/libmt.so
-vendor/lib64/libmt@1.2.so
 vendor/lib64/libmulawdec.so
 vendor/lib64/libnanopb.so
 vendor/lib64/libnbaio_mono.so
