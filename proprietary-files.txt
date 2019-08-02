@@ -534,7 +534,6 @@ vendor/lib/libsdmutils.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsmwrapper.so
 vendor/lib/libsn100u_fw.so
-vendor/lib/libSNPE.so
 vendor/lib/libsnpe_dsp_domains_v2.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
