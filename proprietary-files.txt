@@ -106,7 +106,6 @@ vendor/bin/hw/android.hardware.graphics.composer@2.2-service
 vendor/bin/hw/android.hardware.health@2.0-service
 vendor/bin/hw/android.hardware.ir@1.0-service
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/bin/hw/android.hardware.light@2.0-service
 vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-qti
@@ -241,7 +240,6 @@ vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc
 vendor/etc/init/android.hardware.health@2.0-service.rc
 vendor/etc/init/android.hardware.ir@1.0-service.rc
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/etc/init/android.hardware.light@2.0-service.rc
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.1-service-qti.rc
@@ -400,7 +398,6 @@ vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib/hw/android.hardware.audio@2.0-impl.so
 vendor/lib/hw/android.hardware.audio@4.0-impl.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
-vendor/lib/hw/android.hardware.light@2.0-impl.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.power@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
@@ -417,7 +414,6 @@ vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/hwcomposer.msmnile.so
-vendor/lib/hw/lights.msmnile.so
 vendor/lib/hw/local_time.default.so
 vendor/lib/hw/memtrack.msmnile.so
 vendor/lib/hw/nfc_nci.nqx.default.so
@@ -1007,7 +1003,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gnss@1.1-impl-qti.so
 vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib64/hw/android.hardware.ir@1.0-impl.so
-vendor/lib64/hw/android.hardware.light@2.0-impl.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.power@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
@@ -1027,7 +1022,6 @@ vendor/lib64/hw/fingerprint.goodix_fod.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.msmnile.so
 vendor/lib64/hw/hwcomposer.msmnile.so
-vendor/lib64/hw/lights.msmnile.so
 vendor/lib64/hw/local_time.default.so
 vendor/lib64/hw/memtrack.msmnile.so
 vendor/lib64/hw/nfc_nci.nqx.default.so
