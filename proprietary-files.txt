@@ -563,8 +563,6 @@ vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
-vendor/lib/libwifi-hal-qcom.so
-vendor/lib/libwms.so
 vendor/lib/libwpa_client.so
 vendor/lib/libwqe.so
 vendor/lib/libwvkeybox.so
@@ -1098,7 +1096,6 @@ vendor/lib64/libVDClearShot.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwfdhdcpcp.so
-vendor/lib64/libwifi-hal-qcom.so
 vendor/lib64/libwifi-hal.so
 vendor/lib64/libwms.so
 vendor/lib64/libwpa_client.so
