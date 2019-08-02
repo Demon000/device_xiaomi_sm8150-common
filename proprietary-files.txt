@@ -1053,7 +1053,6 @@ vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libMpeg4SwEncoder.so
-vendor/lib64/libmulawdec.so
 vendor/lib64/libnbaio_mono.so
 vendor/lib64/libnbl_trusty.so
 vendor/lib64/libnetfilter_conntrack.so
