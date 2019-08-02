@@ -401,7 +401,6 @@ vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib/hw/android.hardware.audio@2.0-impl.so
 vendor/lib/hw/android.hardware.audio@4.0-impl.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
-vendor/lib/hw/android.hardware.ir@1.0-impl.so
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib/hw/android.hardware.light@2.0-impl.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
@@ -416,7 +415,6 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
-vendor/lib/hw/consumerir.default.so
 vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/hw/gralloc.default.so
