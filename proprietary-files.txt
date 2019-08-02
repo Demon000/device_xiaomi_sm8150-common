@@ -119,7 +119,6 @@ vendor/bin/hw/vendor.nxp.hardware.nfc@1.1-service
 vendor/bin/hw/vendor.qti.gnss@2.1-service
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
@@ -256,7 +255,6 @@ vendor/etc/init/vendor.nxp.hardware.nfc@1.1-service.rc
 vendor/etc/init/vendor.qti.gnss@2.1-service.rc
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
@@ -520,8 +518,6 @@ vendor/lib/libQSEEComAPI.so
 vendor/lib/libqseed3.so
 vendor/lib/libqservice.so
 vendor/lib/libqsocket.so
-vendor/lib/libqti-iopd-client.so
-vendor/lib/libqti-iopd.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
@@ -861,7 +857,6 @@ vendor/lib64/hw/sound_trigger.primary.msmnile.so
 vendor/lib64/hw/thermal.msmnile.so
 vendor/lib64/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/hw/vulkan.msmnile.so
 vendor/lib64/lib-dplmedia.so
@@ -1089,8 +1084,6 @@ vendor/lib64/libQSEEComAPI.so
 vendor/lib64/libqseed3.so
 vendor/lib64/libqservice.so
 vendor/lib64/libqsocket.so
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
@@ -1218,8 +1211,6 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.hardware.perf@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
