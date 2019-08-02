@@ -261,9 +261,6 @@ vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 vendor/etc/lowi.conf
 vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_google_audio.xml
-vendor/etc/media_codecs_google_telephony.xml
-vendor/etc/media_codecs_google_video.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_profiles.xml
 vendor/etc/mixer_paths_overlay_dynamic.xml
