@@ -503,7 +503,6 @@ vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
 vendor/lib/libp61-jcop-kit.so
-vendor/lib/libpdnotifier.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libplatformconfig.so
 vendor/lib/libpn547_fw.so
