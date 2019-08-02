@@ -534,7 +534,6 @@ vendor/lib/libsdmutils.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsettings.so
-vendor/lib/libsi.so
 vendor/lib/libslimclient.so
 vendor/lib/libsmwrapper.so
 vendor/lib/libsn100u_fw.so
@@ -1097,7 +1096,6 @@ vendor/lib64/libsdsprpc.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsettings.so
-vendor/lib64/libsi.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libsnpe_dsp_domains_v2.so
