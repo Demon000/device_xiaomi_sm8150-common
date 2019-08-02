@@ -166,7 +166,6 @@ vendor/bin/wifidisplayhalservice
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
-vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb
@@ -179,9 +178,7 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/apdr.conf
 vendor/etc/audio/audio_policy_configuration.xml
-vendor/etc/audio_effects.conf
 vendor/etc/audio_effects.xml
-vendor/etc/audio_io_policy.conf
 vendor/etc/audio_platform_info.xml
 vendor/etc/audio_policy_configuration.xml
 vendor/etc/audio_policy_volumes.xml
@@ -212,7 +209,6 @@ vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
-vendor/etc/default_volume_tables.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1_cmd_display_mi.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1mp_cmd_display_mi.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1p2_2_cmd_display_mi.xml
@@ -283,7 +279,6 @@ vendor/etc/perf/thermalboost.conf
 vendor/etc/powerhint.xml
 vendor/etc/public.libraries.txt
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/sap.conf
 vendor/etc/sdr_config.cfg
 vendor/etc/sec_config
@@ -305,7 +300,6 @@ vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
-vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vintf/compatibility_matrix.xml
 vendor/etc/vintf/manifest.xml
 vendor/etc/wifi/p2p_supplicant_overlay.conf
