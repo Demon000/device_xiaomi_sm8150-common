@@ -540,7 +540,6 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libspcom.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libstagefrighthw.so
-vendor/lib/libstreamparser.so
 vendor/lib/libsubsystem_control.so
 vendor/lib/libSubSystemShutdown.so
 vendor/lib/libSuperSensor.so
