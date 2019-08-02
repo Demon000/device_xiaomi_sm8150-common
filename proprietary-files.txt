@@ -477,7 +477,6 @@ vendor/lib/libmmosal_proprietary.so
 vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmulawdec.so
 vendor/lib/libnbaio_mono.so
-vendor/lib/libnbl_trusty.so
 vendor/lib/libnetmgr.so
 vendor/lib/libnetmgr_common.so
 vendor/lib/libnetmgr_nr_fusion.so
@@ -1053,7 +1052,6 @@ vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libMpeg4SwEncoder.so
-vendor/lib64/libnbl_trusty.so
 vendor/lib64/libnetfilter_conntrack.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
