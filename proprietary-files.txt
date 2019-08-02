@@ -520,7 +520,6 @@ vendor/lib/libQSEEComAPI.so
 vendor/lib/libqseed3.so
 vendor/lib/libqservice.so
 vendor/lib/libqsocket.so
-vendor/lib/libQTEEConnector_vendor.so
 vendor/lib/libqti-iopd-client.so
 vendor/lib/libqti-iopd.so
 vendor/lib/libqti-perfd-client.so
@@ -1090,7 +1089,6 @@ vendor/lib64/libQSEEComAPI.so
 vendor/lib64/libqseed3.so
 vendor/lib64/libqservice.so
 vendor/lib64/libqsocket.so
-vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
 vendor/lib64/libqti-perfd-client.so
