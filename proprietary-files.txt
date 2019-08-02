@@ -540,8 +540,6 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libspcom.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libstagefrighthw.so
-vendor/lib/libsubsystem_control.so
-vendor/lib/libSubSystemShutdown.so
 vendor/lib/libSuperSensor.so
 vendor/lib/libSuperSensorCPU.so
 vendor/lib/libsurround_3mic_proc.so
@@ -1097,8 +1095,6 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssd.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/libstagefrighthw.so
-vendor/lib64/libsubsystem_control.so
-vendor/lib64/libSubSystemShutdown.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libswregistrationalgo.so
