@@ -883,7 +883,6 @@ vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
-vendor/lib64/libmdmimgload.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libmegface.so
 vendor/lib64/libMegviiFacepp-0.5.2.so
