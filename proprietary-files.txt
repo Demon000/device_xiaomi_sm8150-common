@@ -493,7 +493,6 @@ vendor/lib/libfastcvopt.so
 vendor/lib/libfastrpc_utf_stub.so
 vendor/lib/libFlacSwDec.so
 vendor/lib/libflp.so
-vendor/lib/libgarden.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
@@ -1118,8 +1117,6 @@ vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libflp.so
 vendor/lib64/libgameoptfeature.so
-vendor/lib64/libgarden.so
-vendor/lib64/libgarden_haltests_e2e.so
 vendor/lib64/libgcs-calwrapper.so
 vendor/lib64/libgcs-ipc.so
 vendor/lib64/libgcs-osal.so
