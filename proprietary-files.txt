@@ -600,9 +600,6 @@ vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libreverbwrapper.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libvisualizer.so
-vendor/lib/vendor.display.color@1.0.so
-vendor/lib/vendor.display.color@1.1.so
-vendor/lib/vendor.display.color@1.2.so
 vendor/lib/vendor.display.config@1.0.so
 vendor/lib/vendor.display.config@1.1.so
 vendor/lib/vendor.display.config@1.2.so
