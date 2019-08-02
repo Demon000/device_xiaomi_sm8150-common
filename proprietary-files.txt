@@ -615,7 +615,6 @@ vendor/lib/libsymphonypower.so
 vendor/lib/libsysmon_cdsp_skel.so
 vendor/lib/libsystem_health_mon.so
 vendor/lib/libteeclientjni.so
-vendor/lib/libtida@1.2.so
 vendor/lib/libtime_genoff.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/libtinyxml.so
@@ -737,9 +736,6 @@ vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@1.0.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so
-vendor/lib/vendor.xiaomi.hardware.tidaservice@1.2.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib/vndk/libstagefright_omx.so
@@ -1200,7 +1196,6 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libteeclientjni.so
 vendor/lib64/libthermalclient.so
-vendor/lib64/libtida@1.2.so
 vendor/lib64/libtime_genoff.so
 vendor/lib64/libtinycompress.so
 vendor/lib64/libtinycompress_vendor.so
@@ -1316,9 +1311,6 @@ vendor/lib64/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so
 vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/0_initial.sql
 vendor/radio/qcril_database/upgrade/1_version_intro.sql
