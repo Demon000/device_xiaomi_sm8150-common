@@ -477,7 +477,6 @@ vendor/lib/libmmosal_proprietary.so
 vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmulawdec.so
 vendor/lib/libnbaio_mono.so
-vendor/lib/libnpu.so
 vendor/lib/liboemaids_vendor.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libOmxAacDec.so
