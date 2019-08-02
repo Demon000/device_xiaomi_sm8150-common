@@ -434,7 +434,6 @@ vendor/lib/libCB.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libcert_parse.wpa_s.so
-vendor/lib/libcppf.so
 vendor/lib/libcvp.so
 vendor/lib/libcvp_common.so
 vendor/lib/libcvp_stub.so
@@ -1015,7 +1014,6 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libcpion.so
-vendor/lib64/libcppf.so
 vendor/lib64/libcvp.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvp_stub.so
