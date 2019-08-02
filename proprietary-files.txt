@@ -471,9 +471,6 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libmdmdetect.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libmegface.so
-vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libmfido.so
 vendor/lib/libmialgo_fs.so
 vendor/lib/libmialgo_sd.so
