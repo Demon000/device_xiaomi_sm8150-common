@@ -458,7 +458,6 @@ vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
-vendor/lib/libgdtap.so
 vendor/lib/libgf_hal.so
 vendor/lib/libGPMTEEC_vendor.so
 vendor/lib/libGPQTEEC_vendor.so
