@@ -563,7 +563,6 @@ vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
-vendor/lib/nfc_nci.nqx.default.hw.so
 vendor/lib/qcrild_librilutils.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
