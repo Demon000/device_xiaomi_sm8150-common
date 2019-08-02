@@ -905,7 +905,6 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/liboffloadhal.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libp61-jcop-kit.so
-vendor/lib64/libpcap.so
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfgluelayer.so
