@@ -465,7 +465,6 @@ vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
 vendor/lib/libgui_vendor.so
-vendor/lib/libHalSuperSensorServer.so
 vendor/lib/libhbtpclient.so
 vendor/lib/libhbtpdsp.so
 vendor/lib/libhbtpfrmwk.so
