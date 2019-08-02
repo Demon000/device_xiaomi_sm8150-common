@@ -415,7 +415,6 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
-vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.msmnile.so
@@ -432,7 +431,6 @@ vendor/lib/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
@@ -866,7 +864,6 @@ vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
