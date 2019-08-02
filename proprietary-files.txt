@@ -458,11 +458,8 @@ vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
-vendor/lib/libGPMTEEC_vendor.so
-vendor/lib/libGPQTEEC_vendor.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libGPTEE_vendor.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
@@ -495,8 +492,6 @@ vendor/lib/libmfido.so
 vendor/lib/libmialgo_fs.so
 vendor/lib/libmialgo_sd.so
 vendor/lib/libmibokeh_855.so
-vendor/lib/libminkdescriptor.so
-vendor/lib/libminksocket.so
 vendor/lib/libmlipay.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libmm-hdcpmgr.so
@@ -552,7 +547,6 @@ vendor/lib/libpn551_fw.so
 vendor/lib/libpn553_fw.so
 vendor/lib/libpn557_fw.so
 vendor/lib/libpvr.so
-vendor/lib/libqcbor.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqcmaputils.so
 vendor/lib/libqcrilFramework.so
@@ -1038,12 +1032,9 @@ vendor/lib64/libgdtap.so
 vendor/lib64/libgeofence.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgnss.so
-vendor/lib64/libGPMTEEC_vendor.so
-vendor/lib64/libGPQTEEC_vendor.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libgps.utils.so
-vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
@@ -1100,8 +1091,6 @@ vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_855.so
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/libminksocket.so
 vendor/lib64/libmlipay.so
 vendor/lib64/libmlipay@1.1.so
 vendor/lib64/libmm-color-convertor.so
@@ -1159,7 +1148,6 @@ vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libplatformconfig.so
 vendor/lib64/libpvr.so
-vendor/lib64/libqcbor.so
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqcrilFramework.so
