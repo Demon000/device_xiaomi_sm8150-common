@@ -402,7 +402,6 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
-vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/hwcomposer.msmnile.so
 vendor/lib/hw/local_time.default.so
@@ -791,7 +790,6 @@ vendor/lib/vendor.display.config@1.3.so
 vendor/lib/vendor.display.config@1.4.so
 vendor/lib/vendor.display.config@1.5.so
 vendor/lib/vendor.display.postproc@1.0.so
-vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/vendor.qti.data.factory@1.0.so
 vendor/lib/vendor.qti.gnss@1.0.so
 vendor/lib/vendor.qti.gnss@1.1.so
