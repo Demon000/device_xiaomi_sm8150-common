@@ -910,7 +910,6 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libplatformconfig.so
-vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqcrilFramework.so
 vendor/lib64/libqdi.so
