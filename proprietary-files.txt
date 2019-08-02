@@ -477,10 +477,6 @@ vendor/etc/listen_platform_info.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lowi.conf
 vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_google_audio.xml
-vendor/etc/media_codecs_google_telephony.xml
-vendor/etc/media_codecs_google_video.xml
-vendor/etc/media_codecs_google_video_le.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_codecs_performance_qcom.xml
 vendor/etc/media_codecs_vendor.xml
