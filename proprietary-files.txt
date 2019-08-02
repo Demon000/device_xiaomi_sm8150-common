@@ -547,8 +547,6 @@ vendor/lib/libsystem_health_mon.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/libtinyxml.so
 vendor/lib/libtinyxml2_1.so
-vendor/lib/libtriplecam_optical_zoom_control.so
-vendor/lib/libtriplecam_video_optical_zoom.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libultrasound.so
 vendor/lib/libVDClearShot.so
