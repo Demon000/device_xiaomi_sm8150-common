@@ -445,8 +445,6 @@ vendor/lib/libdisplayqos.so
 vendor/lib/libdpps.so
 vendor/lib/libdrc.so
 vendor/lib/libdrm.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
 vendor/lib/libdrmutils.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libdsi_netctrl.so
