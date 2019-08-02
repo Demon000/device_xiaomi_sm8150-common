@@ -538,8 +538,6 @@ vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libspcom.so
-vendor/lib/libssc.so
-vendor/lib/libssc_default_listener.so
 vendor/lib/libssccalapi.so
 vendor/lib/libssd.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
