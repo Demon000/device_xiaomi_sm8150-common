@@ -474,7 +474,6 @@ vendor/lib/libmdmdetect.so
 vendor/lib/libmialgo_fs.so
 vendor/lib/libmialgo_sd.so
 vendor/lib/libmibokeh_855.so
-vendor/lib/libmlipay.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmm-omxcore.so
 vendor/lib/libmmosal_proprietary.so
@@ -738,7 +737,6 @@ vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@1.0.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so
@@ -1061,8 +1059,6 @@ vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_855.so
-vendor/lib64/libmlipay.so
-vendor/lib64/libmlipay@1.1.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmosal_proprietary.so
@@ -1321,8 +1317,6 @@ vendor/lib64/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
