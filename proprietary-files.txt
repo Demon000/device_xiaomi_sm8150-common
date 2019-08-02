@@ -547,7 +547,6 @@ vendor/lib/libsystem_health_mon.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/libtinyxml.so
 vendor/lib/libtinyxml2_1.so
-vendor/lib/libultrasound.so
 vendor/lib/libVDClearShot.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
