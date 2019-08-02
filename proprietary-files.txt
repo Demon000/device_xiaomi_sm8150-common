@@ -503,7 +503,6 @@ vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
 vendor/lib/libp61-jcop-kit.so
-vendor/lib/libperfgluelayer.so
 vendor/lib/libplatformconfig.so
 vendor/lib/libpn547_fw.so
 vendor/lib/libpn548ad_fw.so
@@ -895,7 +894,6 @@ vendor/lib64/lib_denoiser3.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
-vendor/lib64/libadaptlaunch.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libadsp_default_listener.so
@@ -905,7 +903,6 @@ vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libApeSwDec.so
-vendor/lib64/libappclassifier.so
 vendor/lib64/libarbitrarybytes.so
 vendor/lib64/libarcsat.so
 vendor/lib64/libarcsoft_beautyshot.so
@@ -978,7 +975,6 @@ vendor/lib64/libfastcvopt.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libflp.so
-vendor/lib64/libgameoptfeature.so
 vendor/lib64/libgcs-calwrapper.so
 vendor/lib64/libgcs-ipc.so
 vendor/lib64/libgcs-osal.so
@@ -1032,7 +1028,6 @@ vendor/lib64/libmdmimgload.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libmegface.so
 vendor/lib64/libMegviiFacepp-0.5.2.so
-vendor/lib64/libmeters-ns.so
 vendor/lib64/libmeters.so
 vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgo_sd.so
@@ -1118,7 +1113,6 @@ vendor/lib64/libqtigef.so
 vendor/lib64/libqtikeymaster4.so
 vendor/lib64/librecovery_updater_msm.so
 vendor/lib64/libreference-ril.so
-vendor/lib64/libreffeature.so
 vendor/lib64/libremosaic_daemon.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libril-qc-hal-qmi.so
