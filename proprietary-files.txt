@@ -504,14 +504,8 @@ vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
 vendor/lib/libp61-jcop-kit.so
 vendor/lib/libplatformconfig.so
-vendor/lib/libqcci_legacy.so
-vendor/lib/libqcmaputils.so
-vendor/lib/libqcrilFramework.so
-vendor/lib/libqdi.so
 vendor/lib/libqdMetaData.so
-vendor/lib/libqdp.so
 vendor/lib/libqdutils.so
-vendor/lib/libqisl.so
 vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_helper.so
