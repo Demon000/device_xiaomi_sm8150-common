@@ -501,7 +501,6 @@ vendor/lib/libgdtap.so
 vendor/lib/libgeofence.so
 vendor/lib/libgf_hal.so
 vendor/lib/libgnss.so
-vendor/lib/libgnsspps.so
 vendor/lib/libGPMTEEC_vendor.so
 vendor/lib/libGPQTEEC_vendor.so
 vendor/lib/libGPreqcancel.so
@@ -1125,7 +1124,6 @@ vendor/lib64/libgdtap.so
 vendor/lib64/libgeofence.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgnss.so
-vendor/lib64/libgnsspps.so
 vendor/lib64/libGPMTEEC_vendor.so
 vendor/lib64/libGPQTEEC_vendor.so
 vendor/lib64/libGPreqcancel.so
