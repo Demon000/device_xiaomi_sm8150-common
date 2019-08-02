@@ -606,10 +606,6 @@ vendor/lib/vendor.display.config@1.2.so
 vendor/lib/vendor.display.config@1.3.so
 vendor/lib/vendor.display.config@1.4.so
 vendor/lib/vendor.display.config@1.5.so
-vendor/lib/vendor.qti.hardware.data.connection@1.0.so
-vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
-vendor/lib/vendor.qti.hardware.data.latency@1.0.so
-vendor/lib/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib/vendor.qti.hardware.perf@1.0.so
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib/vendor.qti.hardware.radio.am@1.0.so
