@@ -417,9 +417,6 @@ vendor/lib/libadreno_utils.so
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
 vendor/lib/libAlacSwDec.so
-vendor/lib/libalCFR.so
-vendor/lib/libalhLDC.so
-vendor/lib/libalLDC.so
 vendor/lib/libalRnBRT_GL_GBWRAPPER.so
 vendor/lib/libalsautils.so
 vendor/lib/libApeSwDec.so
