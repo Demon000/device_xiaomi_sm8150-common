@@ -471,13 +471,9 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libmdmdetect.so
-vendor/lib/libmialgo_fs.so
-vendor/lib/libmialgo_sd.so
-vendor/lib/libmibokeh_855.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmm-omxcore.so
 vendor/lib/libmmosal_proprietary.so
-vendor/lib/libmpbase.so
 vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmt.so
 vendor/lib/libmulawdec.so
