@@ -861,7 +861,6 @@ vendor/lib64/libhwc2on1adapter.so
 vendor/lib64/libhwc2onfbadapter.so
 vendor/lib64/libhwminijail.so
 vendor/lib64/libidl.so
-vendor/lib64/libifaaclient.so
 vendor/lib64/libipanat.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
