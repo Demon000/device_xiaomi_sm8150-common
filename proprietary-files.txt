@@ -1097,7 +1097,6 @@ vendor/lib64/libultrasound.so
 vendor/lib64/libVDClearShot.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libwapi_cert.so
-vendor/lib64/libwebrtc_audio_preprocessing.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/libwifi-hal-qcom.so
 vendor/lib64/libwifi-hal.so
