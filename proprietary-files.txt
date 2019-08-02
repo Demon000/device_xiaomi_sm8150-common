@@ -464,9 +464,6 @@ vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
 vendor/lib/libgui_vendor.so
-vendor/lib/libhdcp1prov.so
-vendor/lib/libhdcp2p2prov.so
-vendor/lib/libhdcpsrm.so
 vendor/lib/libhdr_tm.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libidl.so
@@ -1034,8 +1031,6 @@ vendor/lib64/libgrallocutils.so
 vendor/lib64/libgsl.so
 vendor/lib64/libgui_vendor.so
 vendor/lib64/libHalSuperSensorServer.so
-vendor/lib64/libhdcp1prov.so
-vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libhexagon_nn_stub.so
