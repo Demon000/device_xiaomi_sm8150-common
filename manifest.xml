@@ -70,16 +70,6 @@
         <fqname>@1.1::ISurfaceFlingerConfigs/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.contexthub</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IContexthub</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IContexthub/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.drm</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -97,16 +87,6 @@
         <fqname>@1.1::ICryptoFactory/widevine</fqname>
         <fqname>@1.1::IDrmFactory/clearkey</fqname>
         <fqname>@1.1::IDrmFactory/widevine</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.dumpstate</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IDumpstateDevice</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IDumpstateDevice/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.gatekeeper</name>
@@ -282,18 +262,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IRadioConfig/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.secure_element</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISecureElement</name>
-            <instance>SIM1</instance>
-            <instance>eSE1</instance>
-        </interface>
-        <fqname>@1.0::ISecureElement/SIM1</fqname>
-        <fqname>@1.0::ISecureElement/eSE1</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.sensors</name>
@@ -511,16 +479,6 @@
         <fqname>@1.0::IFactory/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.esepowermanager</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IEsePowerManager</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IEsePowerManager/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.gnss</name>
         <transport>hwbinder</transport>
         <version>1.2</version>
@@ -573,26 +531,6 @@
         <fqname>@1.0::ILinkLatency/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.factory</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IFactory</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.iop</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IIop</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::IIop/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.perf</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -611,21 +549,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IQdutilsDisp/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.qteeconnector</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IAppConnector</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IGPAppConnector</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IAppConnector/default</fqname>
-        <fqname>@1.0::IGPAppConnector/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.am</name>
@@ -736,71 +659,6 @@
         <fqname>@1.0::IUimRemoteServiceServer/uimRemoteServer1</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.scve.objecttracker</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IObjectTracker</name>
-            <instance>objectTracker</instance>
-        </interface>
-        <fqname>@1.0::IObjectTracker/objectTracker</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.scve.panorama</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IPanoramaStitching</name>
-            <instance>panoStitching</instance>
-        </interface>
-        <interface>
-            <name>IPanoramaTracking</name>
-            <instance>panoTracking</instance>
-        </interface>
-        <fqname>@1.0::IPanoramaStitching/panoStitching</fqname>
-        <fqname>@1.0::IPanoramaTracking/panoTracking</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.seccam</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISecCam</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISecCam/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.sensorscalibrate</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISensorsCalibrate</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISensorsCalibrate/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.soter</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISoter</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISoter/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.tui_comm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITuiComm</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ITuiComm/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.vpp</name>
         <transport>hwbinder</transport>
         <version>1.2</version>
@@ -831,16 +689,6 @@
         <fqname>@2.0::ISupplicantVendor/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.wifilearner</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IWifiStats</name>
-            <instance>wifiStats</instance>
-        </interface>
-        <fqname>@1.0::IWifiStats/wifiStats</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.ims.callinfo</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -861,16 +709,6 @@
         <fqname>@1.0::IRTPService/imsrtpservice</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.xiaomi.hardware.citsensorservice</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>ICitSensorService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.1::ICitSensorService/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.xiaomi.hardware.displayfeature</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -889,86 +727,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IXiaomiFingerprint/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.mfidoca</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IFidoService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IFidoService/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.misys</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IMiSys</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IMiSys/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.misys</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IMiSys</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.0::IMiSys/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.mlipay</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IMlipayService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.1::IMlipayService/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.mtdservice</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>IMTService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.2::IMTService/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.tidaservice</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ITidaService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.2::ITidaService/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.touchfeature</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITouchFeature</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ITouchFeature/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.xiaomi.hardware.vsimapp</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IVSIMService</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IVSIMService/default</fqname>
     </hal>
     <sepolicy>
         <version>28.0</version>
