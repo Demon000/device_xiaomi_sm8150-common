@@ -532,7 +532,6 @@ vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
 vendor/lib/libsdmutils.so
 vendor/lib/libsdsprpc.so
-vendor/lib/libsensorslog.so
 vendor/lib/libsettings.so
 vendor/lib/libsmwrapper.so
 vendor/lib/libsn100u_fw.so
