@@ -396,7 +396,6 @@ vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib/hw/android.hardware.audio@2.0-impl.so
 vendor/lib/hw/android.hardware.audio@4.0-impl.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib/hw/android.hardware.sensors@1.0-impl.so
@@ -412,7 +411,6 @@ vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/hwcomposer.msmnile.so
 vendor/lib/hw/local_time.default.so
-vendor/lib/hw/memtrack.msmnile.so
 vendor/lib/hw/nfc_nci.nqx.default.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/hw/thermal.msmnile.so
