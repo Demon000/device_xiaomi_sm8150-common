@@ -447,7 +447,6 @@ vendor/lib/libdrc.so
 vendor/lib/libdrm.so
 vendor/lib/libdrmutils.so
 vendor/lib/libdsd2pcm.so
-vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libeffects.so
 vendor/lib/libeffectsconfig.so
