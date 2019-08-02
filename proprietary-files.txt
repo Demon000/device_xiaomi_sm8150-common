@@ -898,7 +898,6 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
-vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so
@@ -939,7 +938,6 @@ vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib64/hw/consumerir.default.so
 vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/fingerprint.goodix_fod.so
@@ -1003,7 +1001,6 @@ vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
-vendor/lib64/libbthost_if.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libC2D2.so
