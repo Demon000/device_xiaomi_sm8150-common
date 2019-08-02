@@ -450,7 +450,6 @@ vendor/lib/libdsd2pcm.so
 vendor/lib/libdsutils.so
 vendor/lib/libeffects.so
 vendor/lib/libeffectsconfig.so
-vendor/lib/libFaceGrade.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastcvdsp_stub.so
 vendor/lib/libfastcvopt.so
