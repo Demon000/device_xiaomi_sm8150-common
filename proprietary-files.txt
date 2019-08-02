@@ -406,8 +406,6 @@ vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/hwcomposer.msmnile.so
 vendor/lib/hw/local_time.default.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 vendor/lib/hw/vulkan.msmnile.so
 vendor/lib/libacdb-fts.so
@@ -802,8 +800,6 @@ vendor/lib/vendor.qti.imsrtpservice@1.0.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
-vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so
@@ -969,8 +965,6 @@ vendor/lib64/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 vendor/lib64/hw/vulkan.msmnile.so
 vendor/lib64/lib-dplmedia.so
@@ -1424,8 +1418,6 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
 vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
