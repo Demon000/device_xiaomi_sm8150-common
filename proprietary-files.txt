@@ -398,17 +398,14 @@ vendor/lib/hw/android.hardware.audio@4.0-impl.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
-vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib/hw/fingerprint.goodix_fod.so
-vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/hwcomposer.msmnile.so
 vendor/lib/hw/local_time.default.so
-vendor/lib/hw/nfc_nci.nqx.default.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/hw/vendor.qti.gnss@2.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
@@ -416,7 +413,6 @@ vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib/hw/vibrator.default.so
 vendor/lib/hw/vulkan.msmnile.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -987,7 +983,6 @@ vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.msmnile.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.usb.default.so
@@ -997,12 +992,10 @@ vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib64/hw/consumerir.default.so
 vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/fingerprint.goodix_fod.so
-vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.msmnile.so
 vendor/lib64/hw/hwcomposer.msmnile.so
 vendor/lib64/hw/local_time.default.so
 vendor/lib64/hw/memtrack.msmnile.so
-vendor/lib64/hw/nfc_nci.nqx.default.so
 vendor/lib64/hw/sound_trigger.primary.msmnile.so
 vendor/lib64/hw/thermal.msmnile.so
 vendor/lib64/hw/vendor.qti.gnss@2.1-impl.so
@@ -1012,7 +1005,6 @@ vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
-vendor/lib64/hw/vibrator.default.so
 vendor/lib64/hw/vulkan.msmnile.so
 vendor/lib64/lib-dplmedia.so
 vendor/lib64/lib-imscmservice.so
