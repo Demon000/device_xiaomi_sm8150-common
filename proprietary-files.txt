@@ -442,7 +442,6 @@ vendor/lib/libdiag.so
 vendor/lib/libdisp-aba.so
 vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so
-vendor/lib/libdpmqmihal.so
 vendor/lib/libdpps.so
 vendor/lib/libdrc.so
 vendor/lib/libdrm.so
