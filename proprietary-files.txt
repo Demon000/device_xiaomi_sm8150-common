@@ -1096,12 +1096,6 @@ vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libultrasound.so
 vendor/lib64/libVDClearShot.so
 vendor/lib64/libvidhance.so
-vendor/lib64/libvppclient.so
-vendor/lib64/libvpphcp.so
-vendor/lib64/libvpphvx.so
-vendor/lib64/libvppimmotion.so
-vendor/lib64/libvpplibrary.so
-vendor/lib64/libvpptestutils.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwebrtc_audio_preprocessing.so
 vendor/lib64/libwfdhdcpcp.so
