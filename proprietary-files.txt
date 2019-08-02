@@ -523,7 +523,6 @@ vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
 vendor/lib/libqtigef.so
 vendor/lib/libqtikeymaster4.so
-vendor/lib/libremosaic_daemon.so
 vendor/lib/libril-qc-hal-qmi.so
 vendor/lib/libril-qc-ltedirectdisc.so
 vendor/lib/libril-qc-qmi-1.so
