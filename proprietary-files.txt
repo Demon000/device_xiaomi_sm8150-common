@@ -564,10 +564,8 @@ vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/libwpa_client.so
-vendor/lib/libwqe.so
 vendor/lib/libwvkeybox.so
 vendor/lib/libXMFD_AgeGender.so
-vendor/lib/libxml.so
 vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
