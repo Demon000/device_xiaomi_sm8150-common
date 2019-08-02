@@ -406,7 +406,6 @@ vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/hwcomposer.msmnile.so
 vendor/lib/hw/local_time.default.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
-vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
@@ -770,7 +769,6 @@ vendor/lib/vendor.display.config@1.4.so
 vendor/lib/vendor.display.config@1.5.so
 vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/vendor.qti.data.factory@1.0.so
-vendor/lib/vendor.qti.hardware.alarm@1.0.so
 vendor/lib/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib/vendor.qti.hardware.data.latency@1.0.so
