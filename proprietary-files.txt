@@ -935,8 +935,6 @@ vendor/lib64/libwvkeybox.so
 vendor/lib64/libXMFD_AgeGender.so
 vendor/lib64/libxml.so
 vendor/lib64/libxtadapter.so
-vendor/lib64/mediacas/libclearkeycasplugin.so
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/mibokeh_855_opencl.bin
 vendor/lib64/nfc_nci.nqx.default.hw.so
