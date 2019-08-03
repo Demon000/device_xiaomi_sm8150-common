@@ -626,8 +626,6 @@ vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
 vendor/etc/tzlog.dict
-vendor/etc/vintf/compatibility_matrix.xml
-vendor/etc/vintf/manifest.xml
 vendor/etc/wifi/fstman.ini
 vendor/etc/wifi/icm.conf
 vendor/etc/wifi/p2p_supplicant_overlay.conf
