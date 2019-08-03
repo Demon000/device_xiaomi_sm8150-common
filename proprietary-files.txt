@@ -244,6 +244,7 @@ vendor/etc/init/hw/init.qcom.factory.rc
 vendor/etc/init/hw/init.qcom.rc
 vendor/etc/init/hw/init.qcom.usb.rc
 vendor/etc/init/hw/init.target.rc
+vendor/etc/init/hostapd.android.rc
 vendor/etc/init/qcrild.rc
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.nxp.hardware.nfc@1.1-service.rc
