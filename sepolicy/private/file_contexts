@@ -3,6 +3,3 @@
 
 # Fingerprint under display HAL
 /system/bin/hw/lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_sm8150    u:object_r:hal_fod_sm8150_exec:s0
-
-# Lights HAL
-/system/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_sm8150    u:object_r:hal_light_sm8150_exec:s0
