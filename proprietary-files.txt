@@ -153,7 +153,6 @@ vendor/bin/hw/android.hardware.wifi@1.0-service
 vendor/bin/hw/hostapd
 vendor/bin/hw/qcrild
 vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/hw/vendor.nxp.hardware.nfc@1.1-service
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 vendor/bin/hw/vendor.qti.gnss@2.1-service
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -224,7 +223,6 @@ vendor/bin/nbl_daemon
 vendor/bin/nbl_storageproxyd
 vendor/bin/netmgrd
 vendor/bin/npu_launcher
-vendor/bin/nqnfcinfo
 vendor/bin/nv_mac
 vendor/bin/pd-mapper
 vendor/bin/pktlogconf
@@ -421,7 +419,6 @@ vendor/etc/init/init.qti.fm.rc
 vendor/etc/init/minidump.rc
 vendor/etc/init/qcrild.rc
 vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/etc/init/vendor.nxp.hardware.nfc@1.1-service.rc
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 vendor/etc/init/vendor.qti.gnss@2.1-service.rc
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -452,23 +449,6 @@ vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
 vendor/etc/init/vndservicemanager.rc
 vendor/etc/IPACM_cfg.xml
 vendor/etc/izat.conf
-vendor/etc/libese-nxp.conf
-vendor/etc/libnfc-mtp-NQ3XX.conf
-vendor/etc/libnfc-mtp-NQ4XX.conf
-vendor/etc/libnfc-mtp-SN100.conf
-vendor/etc/libnfc-mtp_default.conf
-vendor/etc/libnfc-mtp_rf1.conf
-vendor/etc/libnfc-mtp_rf2.conf
-vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp-pnscr.conf
-vendor/etc/libnfc-nxp.conf
-vendor/etc/libnfc-nxp_RF.conf
-vendor/etc/libnfc-qrd-NQ3XX.conf
-vendor/etc/libnfc-qrd-NQ4XX.conf
-vendor/etc/libnfc-qrd-SN100.conf
-vendor/etc/libnfc-qrd_default.conf
-vendor/etc/libnfc-qrd_rf1.conf
-vendor/etc/libnfc-qrd_rf2.conf
 vendor/etc/listen_platform_info.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lowi.conf
@@ -788,7 +768,6 @@ vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/hwcomposer.msmnile.so
 vendor/lib/hw/local_time.default.so
 vendor/lib/hw/memtrack.msmnile.so
-vendor/lib/hw/nfc_nci.nqx.default.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/hw/thermal.msmnile.so
 vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
@@ -1031,7 +1010,6 @@ vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
-vendor/lib/libp61-jcop-kit.so
 vendor/lib/libpdmapper.so
 vendor/lib/libpdnotifier.so
 vendor/lib/libperfgluelayer.so
@@ -1189,7 +1167,6 @@ vendor/lib/libxtadapter.so
 vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/nfc_nci.nqx.default.hw.so
 vendor/lib/qcrild_librilutils.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
@@ -1477,7 +1454,6 @@ vendor/lib64/hw/gralloc.msmnile.so
 vendor/lib64/hw/hwcomposer.msmnile.so
 vendor/lib64/hw/local_time.default.so
 vendor/lib64/hw/memtrack.msmnile.so
-vendor/lib64/hw/nfc_nci.nqx.default.so
 vendor/lib64/hw/sound_trigger.primary.msmnile.so
 vendor/lib64/hw/thermal.msmnile.so
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
@@ -1738,7 +1714,6 @@ vendor/lib64/libOmxVenc.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/libp61-jcop-kit.so
 vendor/lib64/libpcap.so
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
@@ -1888,7 +1863,6 @@ vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/mibokeh_855_opencl.bin
-vendor/lib64/nfc_nci.nqx.default.hw.so
 vendor/lib64/qcrild_librilutils.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.mius.proximity.so
@@ -1921,7 +1895,6 @@ vendor/lib64/vendor.display.config@1.4.so
 vendor/lib64/vendor.display.config@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
 vendor/lib64/vendor.qti.data.factory@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.gnss@1.0.so
