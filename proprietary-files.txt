@@ -302,7 +302,6 @@ vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/apdr.conf
-vendor/etc/audio/audio_policy_configuration.xml
 vendor/etc/audio_effects.xml
 vendor/etc/audio_platform_info.xml
 vendor/etc/audio_policy_configuration.xml
