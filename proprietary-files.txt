@@ -174,8 +174,6 @@ vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
-vendor/bin/ipacm
-vendor/bin/ipacm-diag
 vendor/bin/irsc_util
 vendor/bin/KmInstallKeybox
 vendor/bin/ks
@@ -1537,7 +1535,6 @@ vendor/lib64/libhwminijail.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libidl.so
 vendor/lib64/libifaaclient.so
-vendor/lib64/libipanat.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/libjson.so
@@ -1589,12 +1586,10 @@ vendor/lib64/libmt@1.2.so
 vendor/lib64/libmulawdec.so
 vendor/lib64/libnanopb.so
 vendor/lib64/libnbl_trusty.so
-vendor/lib64/libnetfilter_conntrack.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
 vendor/lib64/libnetmgr_rmnet_ext.so
-vendor/lib64/libnfnetlink.so
 vendor/lib64/libnlnetmgr.so
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libnpu.so
