@@ -83,8 +83,6 @@ framework/QtiTelephonyServicelibrary.jar
 vendor/bin/adpl
 vendor/bin/adsprpcd
 vendor/bin/athdiag
-vendor/bin/audioflacapp
-vendor/bin/audioshell_service
 vendor/bin/batteryd
 vendor/bin/btconfig
 vendor/bin/cameratest
@@ -122,7 +120,6 @@ vendor/bin/hdcp1prov
 vendor/bin/hdcp2p2prov
 vendor/bin/hostapd_cli
 vendor/bin/hvdcp_opti
-vendor/bin/hw/android.hardware.audio@2.0-service
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
@@ -192,7 +189,6 @@ vendor/bin/mi_thermald
 vendor/bin/minidump64
 vendor/bin/mlid
 vendor/bin/mlipayd@1.1
-vendor/bin/mm-audio-ftm
 vendor/bin/mm-vidc-omx-test
 vendor/bin/mmbn-daemon
 vendor/bin/mmid
@@ -364,7 +360,6 @@ vendor/etc/hbtp/qtc801s.bin
 vendor/etc/hdr_config.cfg
 vendor/etc/init.leds.sh
 vendor/etc/init.panel_info.sh
-vendor/etc/init/android.hardware.audio@2.0-service.rc
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
@@ -699,10 +694,6 @@ vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/ftm_fm_lib.so
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib/hw/android.hardware.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.audio@4.0-impl.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
@@ -717,12 +708,8 @@ vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib/hw/android.hardware.sensors@1.0-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/hw/android.hardware.thermal@1.0-impl.so
-vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.msmnile.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
@@ -781,7 +768,6 @@ vendor/lib/libalCFR.so
 vendor/lib/libalhLDC.so
 vendor/lib/libalLDC.so
 vendor/lib/libalRnBRT_GL_GBWRAPPER.so
-vendor/lib/libalsautils.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libarbitrarybytes.so
 vendor/lib/libarcsat.so
@@ -802,8 +788,6 @@ vendor/lib/libarcsoft_preview_deflicker.so
 vendor/lib/libarcsoft_supernight.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libavservices_minijail_vendor.so
 vendor/lib/libbase64.so
@@ -859,8 +843,6 @@ vendor/lib/libdrmutils.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
-vendor/lib/libeffects.so
-vendor/lib/libeffectsconfig.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastcvdsp_stub.so
@@ -940,7 +922,6 @@ vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmt.so
 vendor/lib/libmulawdec.so
 vendor/lib/libnanopb.so
-vendor/lib/libnbaio_mono.so
 vendor/lib/libnbl_trusty.so
 vendor/lib/libnetmgr.so
 vendor/lib/libnetmgr_common.so
@@ -1115,7 +1096,6 @@ vendor/lib/libvpptestutils.so
 vendor/lib/libvqzip.so
 vendor/lib/libvsim.so
 vendor/lib/libwapi_cert.so
-vendor/lib/libwebrtc_audio_preprocessing.so
 vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so
@@ -1164,22 +1144,11 @@ vendor/lib/sensors.mius.proximity.so
 vendor/lib/sensors.ssc.so
 vendor/lib/sensors.touch.so
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudiopreprocessing.so
-vendor/lib/soundfx/libbundlewrapper.so
-vendor/lib/soundfx/libdownmix.so
-vendor/lib/soundfx/libdynproc.so
-vendor/lib/soundfx/libeffectproxy.so
-vendor/lib/soundfx/libldnhncr.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libreverbwrapper.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libvisualizer.so
 vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.color@1.1.so
 vendor/lib/vendor.display.color@1.2.so
@@ -1385,10 +1354,6 @@ vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/ftm_fm_lib.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
@@ -1405,10 +1370,6 @@ vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.primary.msmnile.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
@@ -1421,7 +1382,6 @@ vendor/lib64/hw/hwcomposer.msmnile.so
 vendor/lib64/hw/local_time.default.so
 vendor/lib64/hw/memtrack.msmnile.so
 vendor/lib64/hw/power.qcom.so
-vendor/lib64/hw/sound_trigger.primary.msmnile.so
 vendor/lib64/hw/thermal.msmnile.so
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
 vendor/lib64/hw/vendor.qti.gnss@2.1-impl.so
@@ -1468,7 +1428,6 @@ vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalRnBRT_GL_GBWRAPPER.so
-vendor/lib64/libalsautils.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libappclassifier.so
 vendor/lib64/libarbitrarybytes.so
@@ -1490,10 +1449,6 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_supernight.so
 vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libaudcal.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libbase64.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbt-vendor.so
@@ -1545,8 +1500,6 @@ vendor/lib64/libdrmtime.so
 vendor/lib64/libdrmutils.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
-vendor/lib64/libeffects.so
-vendor/lib64/libeffectsconfig.so
 vendor/lib64/libFaceGrade.so
 vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libfastcvopt.so
@@ -1643,7 +1596,6 @@ vendor/lib64/libmt.so
 vendor/lib64/libmt@1.2.so
 vendor/lib64/libmulawdec.so
 vendor/lib64/libnanopb.so
-vendor/lib64/libnbaio_mono.so
 vendor/lib64/libnbl_trusty.so
 vendor/lib64/libnetfilter_conntrack.so
 vendor/lib64/libnetmgr.so
@@ -1813,7 +1765,6 @@ vendor/lib64/libvppimmotion.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/libvpptestutils.so
 vendor/lib64/libwapi_cert.so
-vendor/lib64/libwebrtc_audio_preprocessing.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/libwifi-hal-qcom.so
 vendor/lib64/libwifi-hal.so
