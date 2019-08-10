@@ -137,13 +137,11 @@ vendor/bin/hw/android.hardware.drm@1.1-service.clearkey
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/bin/hw/android.hardware.dumpstate@1.0-service.xiaomi
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/bin/hw/android.hardware.graphics.composer@2.2-service
 vendor/bin/hw/android.hardware.health@2.0-service
 vendor/bin/hw/android.hardware.ir@1.0-service
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.media.omx@1.0-service
-vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-qti
 vendor/bin/hw/android.hardware.power@1.0-service
 vendor/bin/hw/android.hardware.sensors@1.0-service
@@ -156,7 +154,6 @@ vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 vendor/bin/hw/vendor.qti.gnss@2.1-service
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
@@ -377,12 +374,10 @@ vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/etc/init/android.hardware.dumpstate@1.0-service.xiaomi.rc
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc
 vendor/etc/init/android.hardware.health@2.0-service.rc
 vendor/etc/init/android.hardware.ir@1.0-service.rc
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
-vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.1-service-qti.rc
 vendor/etc/init/android.hardware.power@1.0-service.rc
 vendor/etc/init/android.hardware.sensors@1.0-service.rc
@@ -397,7 +392,6 @@ vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
 vendor/etc/init/vendor.qti.gnss@2.1-service.rc
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
@@ -711,10 +705,8 @@ vendor/lib/hw/android.hardware.contexthub@1.0-impl.generic.so
 vendor/lib/hw/android.hardware.drm@1.0-impl.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gnss@1.1-impl-qti.so
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/android.hardware.ir@1.0-impl.so
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 vendor/lib/hw/android.hardware.sensors@1.0-impl.so
@@ -730,9 +722,6 @@ vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib/hw/consumerir.default.so
 vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/fingerprint.goodix_fod.so
-vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.msmnile.so
-vendor/lib/hw/hwcomposer.msmnile.so
 vendor/lib/hw/local_time.default.so
 vendor/lib/hw/memtrack.msmnile.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
@@ -849,7 +838,6 @@ vendor/lib/libdiag.so
 vendor/lib/libdiag_jni.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdisp-aba.so
-vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libdpmqmihal.so
 vendor/lib/libdpps.so
@@ -857,7 +845,6 @@ vendor/lib/libdrc.so
 vendor/lib/libdrm.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
-vendor/lib/libdrmutils.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
@@ -886,9 +873,6 @@ vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
 vendor/lib/libgps.utils.so
 vendor/lib/libGPTEE_vendor.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libgralloccore.so
-vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
 vendor/lib/libgui_vendor.so
 vendor/lib/libHalSuperSensorServer.so
@@ -993,9 +977,7 @@ vendor/lib/libqcci_legacy.so
 vendor/lib/libqcmaputils.so
 vendor/lib/libqcrilFramework.so
 vendor/lib/libqdi.so
-vendor/lib/libqdMetaData.so
 vendor/lib/libqdp.so
-vendor/lib/libqdutils.so
 vendor/lib/libqisl.so
 vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
@@ -1052,9 +1034,7 @@ vendor/lib/libsdm-color.so
 vendor/lib/libsdm-colormgr-algo.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
-vendor/lib/libsdmutils.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsecureui.so
 vendor/lib/libsecureui_svcsock.so
@@ -1398,10 +1378,8 @@ vendor/lib64/hw/android.hardware.contexthub@1.0-impl.generic.so
 vendor/lib64/hw/android.hardware.drm@1.0-impl.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gnss@1.1-impl-qti.so
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib64/hw/android.hardware.ir@1.0-impl.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
 vendor/lib64/hw/android.hardware.power@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
@@ -1417,9 +1395,6 @@ vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib64/hw/consumerir.default.so
 vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/fingerprint.goodix_fod.so
-vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.msmnile.so
-vendor/lib64/hw/hwcomposer.msmnile.so
 vendor/lib64/hw/local_time.default.so
 vendor/lib64/hw/memtrack.msmnile.so
 vendor/lib64/hw/power.qcom.so
@@ -1538,14 +1513,12 @@ vendor/lib64/libdiag.so
 vendor/lib64/libdiag_jni.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libdisp-aba.so
-vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdpmqmihal.so
 vendor/lib64/libdpps.so
 vendor/lib64/libdrm.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
-vendor/lib64/libdrmutils.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libeffects.so
@@ -1574,9 +1547,6 @@ vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libgps.utils.so
 vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
 vendor/lib64/libgsl.so
 vendor/lib64/libgui_vendor.so
 vendor/lib64/libHalSuperSensorServer.so
@@ -1692,9 +1662,7 @@ vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqcrilFramework.so
 vendor/lib64/libqdi.so
-vendor/lib64/libqdMetaData.so
 vendor/lib64/libqdp.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqisl.so
 vendor/lib64/libqmi.so
 vendor/lib64/libqmi_cci.so
@@ -1753,9 +1721,7 @@ vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
