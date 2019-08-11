@@ -255,8 +255,6 @@ vendor/bin/tp_data_collect.sh
 vendor/bin/tp_selftest.sh
 vendor/bin/vendor.qti.hardware.soter@1.0-provision
 vendor/bin/vendor_cmd_tool
-vendor/bin/vndservice
-vendor/bin/vndservicemanager
 vendor/bin/vppservice
 vendor/bin/vsimd
 vendor/bin/wcnss_filter
@@ -415,7 +413,6 @@ vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
-vendor/etc/init/vndservicemanager.rc
 vendor/etc/IPACM_cfg.xml
 vendor/etc/izat.conf
 vendor/etc/listen_platform_info.xml
