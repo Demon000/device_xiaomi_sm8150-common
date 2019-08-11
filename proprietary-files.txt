@@ -439,8 +439,6 @@ vendor/etc/screen_light.xml
 vendor/etc/scve/facereco/gModel.dat
 vendor/etc/sdr_config.cfg
 vendor/etc/sec_config
-vendor/etc/seccomp_policy/mediacodec.policy
-vendor/etc/seccomp_policy/mediaextractor.policy
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/bmp285_0.json
