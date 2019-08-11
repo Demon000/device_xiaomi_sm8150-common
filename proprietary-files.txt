@@ -124,7 +124,6 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/bin/hw/android.hardware.cas@1.0-service
-vendor/bin/hw/android.hardware.configstore@1.1-service
 vendor/bin/hw/android.hardware.contexthub@1.0-service
 vendor/bin/hw/android.hardware.drm@1.0-service
 vendor/bin/hw/android.hardware.drm@1.1-service.clearkey
@@ -362,7 +361,6 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/etc/init/android.hardware.cas@1.0-service.rc
-vendor/etc/init/android.hardware.configstore@1.1-service.rc
 vendor/etc/init/android.hardware.contexthub@1.0-service.rc
 vendor/etc/init/android.hardware.drm@1.0-service.rc
 vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
@@ -441,7 +439,6 @@ vendor/etc/screen_light.xml
 vendor/etc/scve/facereco/gModel.dat
 vendor/etc/sdr_config.cfg
 vendor/etc/sec_config
-vendor/etc/seccomp_policy/configstore@1.1.policy
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/seccomp_policy/mediaextractor.policy
 vendor/etc/sensors/config/adux1050_0.json
