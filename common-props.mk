@@ -5,30 +5,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
     aaudio.mmap_policy=2 \
     af.fast_track_multiplier=1 \
     audio.deep_buffer.media=true \
-    audio.offload.buffer.size.kb=32 \
-    audio.offload.gapless.enabled=true \
     audio.offload.video=true \
-    av.offload.enable=true \
-    persist.audio.fluence.speaker=true \
-    persist.audio.fluence.voicecall=true \
-    persist.audio.fluence.voicerec=false \
     persist.vendor.audio.fluence.speaker=true \
     persist.vendor.audio.fluence.tmic.enabled=false \
     persist.vendor.audio.fluence.voicecall=true \
     persist.vendor.audio.fluence.voicerec=false \
     persist.vendor.audio.ras.enabled=false \
     persist.vendor.audio.voicecall.speaker.stereo=true \
-    qcom.hw.aac.encoder=true \
-    ro.audio.recording.hd=true \
     ro.af.client_heap_size_kbyte=7168 \
     ro.config.media_vol_steps=25 \
     ro.config.vc_call_vol_steps=7 \
-    ro.qc.sdk.audio.fluencetype=none \
-    ro.qc.sdk.audio.ssr=false \
-    ro.vendor.audio.game.effect=true \
     ro.vendor.audio.sdk.fluencetype=fluence \
     ro.vendor.audio.sdk.ssr=false \
-    ro.vendor.audio.sos=true \
     ro.vendor.audio.soundfx.type=mi \
     ro.vendor.audio.soundfx.usb=true \
     ro.vendor.audio.soundtrigger.cnn.adsp.level=27 \
@@ -42,18 +30,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.soundtrigger.vop.adsp.level=10 \
     ro.vendor.audio.soundtrigger.vop.level=10 \
     ro.vendor.audio.soundtrigger=sva \
-    ro.vendor.audio.us.proximity=true \
-    ro.vendor.audio.voice.volume.boost=manual \
-    tunnel.audio.encode = true \
-    use.voice.path.for.pcm.voip=true \
     vendor.audio.adm.buffering.ms=6 \
-    vendor.audio.dolby.ds2.enabled=false \
-    vendor.audio.dolby.ds2.hardbypass=false \
-    vendor.audio.enable.mirrorlink=false \
     vendor.audio.flac.sw.decoder.24bit=true \
     vendor.audio.hal.output.suspend.supported=false \
     vendor.audio.hw.aac.encoder=false \
-    vendor.audio.noisy.broadcast.delay=600 \
     vendor.audio.offload.buffer.size.kb=32 \
     vendor.audio.offload.gapless.enabled=true \
     vendor.audio.offload.multiaac.enable=true \
@@ -68,21 +48,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.audio_hal.in_period_size=144 \
     vendor.audio_hal.period_multiplier=3 \
-    vendor.audio_hal.period_size=192 \
-    vendor.voice.path.for.pcm.voip=false \
-    vendor.mm.enable.qcom_parser=63963135
+    vendor.audio_hal.period_size=192
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    bt.max.hfpclient.connections=1 \
     persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac \
     persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac \
     persist.vendor.btstack.connect.peer_earbud=true \
     persist.vendor.btstack.enable.splita2dp=true \
     persist.vendor.btstack.enable.twsplus=true \
-    ro.bluetooth.emb_wp_mode=false \
     ro.bluetooth.library_name=libbluetooth_qti.so \
-    ro.bluetooth.wipower=false \
     vendor.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee
 
@@ -99,18 +74,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Data modules
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.rmnet.data.enable=true \
-    persist.data.df.agg.dl_pkt=10 \
-    persist.data.df.agg.dl_size=4096 \
-    persist.data.df.dev_name=rmnet_usb0 \
-    persist.data.df.dl_mode=5 \
-    persist.data.df.iwlan_mux=9 \
-    persist.data.df.mux_count=8 \
-    persist.data.df.ul_mode=5 \
-    persist.data.wda.enable=true \
     persist.vendor.data.iwlan.enable=true \
-    persist.vendor.data.mode=concurrent \
-    ro.vendor.use_data_netmgrd=true
+    persist.vendor.data.mode=concurrent
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -127,10 +92,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.disable_decimation=1 \
     vendor.display.disable_excl_rect=0 \
     vendor.display.disable_hw_recovery=0 \
-    vendor.display.disable_inline_rotator=1 \
-    vendor.display.disable_scaler=0 \
-    vendor.display.enable_default_color_mode=0 \
-    vendor.display.enable_null_display=0
+    vendor.display.disable_inline_rotator=1
 
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -142,14 +104,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.egl.hw=0 \
-    debug.mdpcomp.logs=0 \
     debug.sf.disable_backpressure=1 \
     debug.sf.enable_hwc_vds=1 \
-    debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1 \
-    ro.opengles.version=196610 \
-    vendor.gralloc.disable_ubwc=0
+    ro.opengles.version=196610
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -186,16 +144,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.config.zram=false \
-    ro.vendor.scroll.preobtain.enable=false \
-    ro.vendor.extension_library=libqti-perfd-client.so \
-    vendor.iop.enable_prefetch_ofr=0 \
-    vendor.iop.enable_uxe=0 \
-    vendor.perf.gestureflingboost.enable=true \
-    vendor.perf.iop_v3.enable=true \
-    vendor.perf.workloadclassifier.enable=true \
-    vendor.perflocks_customized_for_apps=1 \
-    vendor.power.pasr.enabled=true
+    ro.vendor.extension_library=libqti-perfd-client.so
 
 # RCS and IMS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -212,7 +161,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.VT_CAM_INTERFACE=1 \
     persist.radio.VT_HYBRID_ENABLE=1 \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
-    persist.vendor.radio.atfwd.start=true \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.force_on_dc=true \
     persist.vendor.radio.rat_on=combine \
@@ -220,7 +168,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.report_codec=1 \
     persist.vendor.radio.sib16_support=1 \
     ril.subscription.types=NV,RUIM \
-    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.telephony.default_cdma_sub=0 \
     ro.telephony.default_network=22,22 \
     telephony.lteOnCdmaDevice=1
@@ -232,7 +179,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # SSR
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.ssr.enable_ramdumps=0 \
     persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # WFD
