@@ -414,10 +414,6 @@ vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libcert_parse.wpa_s.so
 vendor/lib/libcld80211.so
-vendor/lib/libcne.so
-vendor/lib/libcneapiclient.so
-vendor/lib/libcneoplookup.so
-vendor/lib/libcneqmiutils.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libconfigdb.so
 vendor/lib/libcpion.so
