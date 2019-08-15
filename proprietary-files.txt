@@ -386,7 +386,6 @@ vendor/lib/libalCFR.so
 vendor/lib/libalhLDC.so
 vendor/lib/libalLDC.so
 vendor/lib/libalRnBRT_GL_GBWRAPPER.so
-vendor/lib/libApeSwDec.so
 vendor/lib/libarbitrarybytes.so
 vendor/lib/libarcsat.so
 vendor/lib/libarcsoft_beautyshot.so
@@ -925,7 +924,6 @@ vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalRnBRT_GL_GBWRAPPER.so
-vendor/lib64/libApeSwDec.so
 vendor/lib64/libappclassifier.so
 vendor/lib64/libarbitrarybytes.so
 vendor/lib64/libarcsat.so
