@@ -410,7 +410,6 @@ vendor/lib/libcapiv2vop.so
 vendor/lib/libCB.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
-vendor/lib/libcpion.so
 vendor/lib/libdiag.so
 vendor/lib/libdiag_jni.so
 vendor/lib/libdiagjni.so
