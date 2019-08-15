@@ -232,12 +232,10 @@ vendor/etc/perf/perfboostsconfigmi.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
 vendor/etc/perf/thermalboost.conf
-vendor/etc/pm_test_item_config.xml
 vendor/etc/powerhint.xml
 vendor/etc/public.libraries.txt
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
 vendor/etc/sap.conf
-vendor/etc/screen_light.xml
 vendor/etc/sec_config
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/ak991x_dri_0.json
@@ -284,9 +282,7 @@ vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/config/vl53l1_tof_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
-vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_mixer_paths_wcd9340.xml
-vendor/etc/sound_trigger_mixer_paths_wcd9340_qrd.xml
 vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
@@ -302,7 +298,6 @@ vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-vendor/etc/XiaoAiTongXue.uim
 vendor/etc/xtwifi.conf
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a640_gmu.bin
