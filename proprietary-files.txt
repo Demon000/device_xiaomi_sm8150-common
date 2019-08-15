@@ -184,8 +184,6 @@ vendor/etc/dsi_samsung_fhd_ea8076_f1p2_cmd_display_mi.xml
 vendor/etc/elliptic_sensor.xml
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/hdr_config.cfg
-vendor/etc/init.leds.sh
-vendor/etc/init.panel_info.sh
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
