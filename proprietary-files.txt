@@ -247,9 +247,6 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/etc/init/android.hardware.cas@1.0-service.rc
 vendor/etc/init/android.hardware.contexthub@1.0-service.rc
-vendor/etc/init/android.hardware.drm@1.0-service.rc
-vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/etc/init/android.hardware.dumpstate@1.0-service.xiaomi.rc
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc
@@ -572,7 +569,6 @@ vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/android.hardware.contexthub@1.0-impl.generic.so
-vendor/lib/hw/android.hardware.drm@1.0-impl.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gnss@1.1-impl-qti.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
@@ -1212,7 +1208,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/hw/android.hardware.contexthub@1.0-impl.generic.so
-vendor/lib64/hw/android.hardware.drm@1.0-impl.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gnss@1.1-impl-qti.so
 vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
