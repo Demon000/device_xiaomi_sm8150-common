@@ -357,7 +357,6 @@ vendor/firmware/ipa_fws.mdt
 vendor/firmware/stm_fts_production_limits.csv
 vendor/firmware/tas2557_uCDSP_aac.bin
 vendor/firmware/tas2557_uCDSP_goer.bin
-vendor/lib/android.hidl.base@1.0.so
 vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib/com.qualcomm.qti.imscmservice@1.0.so
@@ -800,7 +799,6 @@ vendor/lib/vendor.qti.imsrtpservice@1.0.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib64/android.hidl.base@1.0.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
