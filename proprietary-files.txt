@@ -370,7 +370,6 @@ vendor/lib/libadpcmdec.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
-vendor/lib/libAlacSwDec.so
 vendor/lib/libalCFR.so
 vendor/lib/libalhLDC.so
 vendor/lib/libalLDC.so
@@ -902,7 +901,6 @@ vendor/lib64/libadiertac.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
-vendor/lib64/libAlacSwDec.so
 vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
