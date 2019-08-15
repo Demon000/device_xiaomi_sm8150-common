@@ -152,7 +152,6 @@ vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
-vendor/etc/apdr.conf
 vendor/etc/cacert_location.pem
 vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_wide.config
@@ -183,9 +182,7 @@ vendor/etc/dsi_samsung_fhd_ea8076_f1mp_cmd_display_mi.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1p2_2_cmd_display_mi.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1p2_cmd_display_mi.xml
 vendor/etc/elliptic_sensor.xml
-vendor/etc/flp.conf
 vendor/etc/gpfspath_oem_config.xml
-vendor/etc/gps.conf
 vendor/etc/hdr_config.cfg
 vendor/etc/init.leds.sh
 vendor/etc/init.panel_info.sh
@@ -210,9 +207,7 @@ vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
-vendor/etc/izat.conf
 vendor/etc/lm/AppClassifierFeature.xml
-vendor/etc/lowi.conf
 vendor/etc/msm_irqbalance.conf
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
@@ -222,7 +217,6 @@ vendor/etc/perf/targetresourceconfigs.xml
 vendor/etc/perf/thermalboost.conf
 vendor/etc/powerhint.xml
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
-vendor/etc/sap.conf
 vendor/etc/sec_config
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/ak991x_dri_0.json
@@ -283,7 +277,6 @@ vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-vendor/etc/xtwifi.conf
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a640_gmu.bin
 vendor/firmware/a640_zap.b00
