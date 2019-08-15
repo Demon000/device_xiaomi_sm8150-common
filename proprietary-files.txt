@@ -201,7 +201,6 @@ vendor/etc/init/android.hardware.power@1.0-service.rc
 vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/etc/init/hostapd.android.rc
-vendor/etc/init/minidump.rc
 vendor/etc/init/qcrild.rc
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.qti.gnss@2.1-service.rc
@@ -213,7 +212,6 @@ vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/etc/izat.conf
-vendor/etc/listen_platform_info.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lowi.conf
 vendor/etc/msm_irqbalance.conf
