@@ -424,7 +424,6 @@ vendor/lib/libgcs.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
-vendor/lib/libhdr_tm.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libidl.so
 vendor/lib/libjson.so
