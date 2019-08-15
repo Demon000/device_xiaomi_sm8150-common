@@ -368,7 +368,6 @@ vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gnss@1.1-impl-qti.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
@@ -906,7 +905,6 @@ vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gnss@1.1-impl-qti.so
