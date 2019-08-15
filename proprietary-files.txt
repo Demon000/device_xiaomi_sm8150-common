@@ -272,10 +272,6 @@ vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
-vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/WCNSS_qcom_cfg.ini
-vendor/etc/wifi/wpa_supplicant.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a640_gmu.bin
 vendor/firmware/a640_zap.b00
