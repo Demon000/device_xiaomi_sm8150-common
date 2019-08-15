@@ -304,17 +304,10 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/egl/libQTapGLES.so
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib/hw/android.hardware.gnss@1.1-impl-qti.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/audio.primary.msmnile.so
-vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
-vendor/lib/hw/vendor.qti.gnss@2.1-impl.so
-vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/hw/vulkan.msmnile.so
 vendor/lib/lib-dplmedia.so
 vendor/lib/lib-imscmservice.so
@@ -477,7 +470,6 @@ vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/camera.device@1.0-impl.so
