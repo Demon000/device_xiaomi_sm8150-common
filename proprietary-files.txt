@@ -224,7 +224,6 @@ vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lowi.conf
 vendor/etc/mixer_paths_overlay_dynamic.xml
 vendor/etc/mixer_paths_overlay_static.xml
-vendor/etc/mixer_paths_pahu.xml
 vendor/etc/mixer_paths_tavil.xml
 vendor/etc/msm_irqbalance.conf
 vendor/etc/perf/commonresourceconfigs.xml
