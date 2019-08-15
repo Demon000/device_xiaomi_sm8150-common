@@ -424,7 +424,6 @@ vendor/lib/libgcs.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
-vendor/lib/libhdcpsrm.so
 vendor/lib/libhdr_tm.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libidl.so
@@ -442,7 +441,6 @@ vendor/lib/libmulawdec.so
 vendor/lib/libnbl_trusty.so
 vendor/lib/libnpu.so
 vendor/lib/liboemaids_vendor.so
-vendor/lib/liboemcrypto.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
 vendor/lib/libOmxAlacDecSw.so
