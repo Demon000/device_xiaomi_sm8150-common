@@ -413,7 +413,6 @@ vendor/lib/libcdsprpc.so
 vendor/lib/libdiag.so
 vendor/lib/libdiag_jni.so
 vendor/lib/libdiagjni.so
-vendor/lib/libdpmqmihal.so
 vendor/lib/libdrc.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
