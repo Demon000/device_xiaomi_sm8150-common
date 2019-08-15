@@ -452,7 +452,6 @@ vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
 vendor/lib/libperfgluelayer.so
-vendor/lib/libpvr.so
 vendor/lib/libqcmaputils.so
 vendor/lib/libqcrilFramework.so
 vendor/lib/libqdi.so
@@ -956,7 +955,6 @@ vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperipheral_client.so
-vendor/lib64/libpvr.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqcrilFramework.so
 vendor/lib64/libqdi.so
