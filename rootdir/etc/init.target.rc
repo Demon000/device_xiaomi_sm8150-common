@@ -221,7 +221,7 @@ service panel-info-sh /vendor/bin/sh /vendor/etc/init.panel_info.sh
     oneshot
 
 service nv_mac /vendor/bin/nv_mac
-    class late_start
+    class main
     user system
     group system inet net_admin wifi net_raw
     oneshot
