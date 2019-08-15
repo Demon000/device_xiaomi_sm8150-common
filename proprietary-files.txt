@@ -176,8 +176,6 @@ vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
-vendor/etc/cirrus.cfg
-vendor/etc/cs35l41_cal.wav
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
 vendor/etc/dsi_samsung_fhd_ea8076_f1_cmd_display_mi.xml
