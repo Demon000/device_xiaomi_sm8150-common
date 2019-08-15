@@ -333,7 +333,6 @@ vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/etc/XiaoAiTongXue.uim
-vendor/etc/xtra_root_cert.pem
 vendor/etc/xtwifi.conf
 vendor/firmware/a225_pfp.fw
 vendor/firmware/a225_pm4.fw
