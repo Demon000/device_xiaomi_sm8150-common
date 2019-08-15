@@ -438,8 +438,6 @@ vendor/lib/libmdmdetect.so
 vendor/lib/libmmosal_proprietary.so
 vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmulawdec.so
-vendor/lib/libnbl_trusty.so
-vendor/lib/libnpu.so
 vendor/lib/liboemaids_vendor.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
