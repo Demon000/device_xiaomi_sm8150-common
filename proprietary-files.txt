@@ -424,7 +424,6 @@ vendor/lib/libgcs.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
-vendor/lib/libHalSuperSensorServer.so
 vendor/lib/libhdcpsrm.so
 vendor/lib/libhdr_tm.so
 vendor/lib/libI420colorconvert.so
@@ -448,16 +447,7 @@ vendor/lib/liblowi_client.so
 vendor/lib/liblowi_wifihal.so
 vendor/lib/liblqe.so
 vendor/lib/libmdmdetect.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libmegface.so
-vendor/lib/libMegviiFacepp-0.5.2.so
-vendor/lib/libmialgo_fs.so
-vendor/lib/libmialgo_sd.so
-vendor/lib/libmibokeh_855.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmosal_proprietary.so
-vendor/lib/libmpbase.so
 vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmulawdec.so
 vendor/lib/libnbl_trusty.so
