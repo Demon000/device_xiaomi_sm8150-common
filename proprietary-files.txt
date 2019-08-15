@@ -411,7 +411,6 @@ vendor/lib/libCB.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libcpion.so
-vendor/lib/libcppf.so
 vendor/lib/libdiag.so
 vendor/lib/libdiag_jni.so
 vendor/lib/libdiagjni.so
@@ -908,7 +907,6 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libcpion.so
-vendor/lib64/libcppf.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdiag_jni.so
