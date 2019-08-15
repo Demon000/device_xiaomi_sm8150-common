@@ -309,8 +309,6 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gnss@1.1-impl-qti.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/audio.primary.msmnile.so
-vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/hw/gralloc.msmnile.so
 vendor/lib/hw/sound_trigger.primary.msmnile.so
