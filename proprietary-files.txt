@@ -453,7 +453,6 @@ vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqdMetaData.so
-vendor/lib/libqdutils.so
 vendor/lib/libqisl.so
 vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
