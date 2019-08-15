@@ -424,7 +424,6 @@ vendor/lib/libgcs.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
-vendor/lib/libI420colorconvert.so
 vendor/lib/libidl.so
 vendor/lib/libjson.so
 vendor/lib/liblistenjni.so
@@ -913,7 +912,6 @@ vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/libhwc2on1adapter.so
 vendor/lib64/libhwc2onfbadapter.so
 vendor/lib64/libhwminijail.so
-vendor/lib64/libI420colorconvert.so
 vendor/lib64/libidl.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
