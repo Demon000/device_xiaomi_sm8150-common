@@ -463,7 +463,6 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 vendor/lib/libqrtr.so
 vendor/lib/libqsap_sdk.so
-vendor/lib/libQSEEComAPI.so
 vendor/lib/libqti-iopd-client.so
 vendor/lib/libqti-iopd.so
 vendor/lib/libqti-perfd-client.so
@@ -473,7 +472,6 @@ vendor/lib/libqtigef.so
 vendor/lib/libqtikeymaster4.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/librmp.so
-vendor/lib/librpmb.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsettings.so
