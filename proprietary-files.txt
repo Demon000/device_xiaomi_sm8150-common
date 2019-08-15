@@ -451,8 +451,6 @@ vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
-vendor/lib/libpdmapper.so
-vendor/lib/libpdnotifier.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libpn547_fw.so
