@@ -322,7 +322,6 @@ vendor/firmware/ipa_fws.mdt
 vendor/firmware/stm_fts_production_limits.csv
 vendor/firmware/tas2557_uCDSP_aac.bin
 vendor/firmware/tas2557_uCDSP_goer.bin
-vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -339,7 +338,6 @@ vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
-vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/hw/gralloc.default.so
@@ -843,7 +841,6 @@ vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so
@@ -872,7 +869,6 @@ vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 vendor/lib64/hw/android.hardware.power@1.0-impl.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 vendor/lib64/hw/consumerir.default.so
 vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/fingerprint.goodix_fod.so
