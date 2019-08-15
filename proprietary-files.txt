@@ -414,8 +414,6 @@ vendor/lib/libdiag.so
 vendor/lib/libdiag_jni.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdrc.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
