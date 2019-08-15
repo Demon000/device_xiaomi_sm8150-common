@@ -186,7 +186,6 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/flp.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/gps.conf
-vendor/etc/graphite_ipc_platform_info.xml
 vendor/etc/hdr_config.cfg
 vendor/etc/init.leds.sh
 vendor/etc/init.panel_info.sh
@@ -271,8 +270,6 @@ vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/config/vl53l1_tof_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
-vendor/etc/sound_trigger_mixer_paths_wcd9340.xml
-vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
