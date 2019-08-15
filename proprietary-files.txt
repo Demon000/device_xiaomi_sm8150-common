@@ -221,7 +221,6 @@ vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
 vendor/etc/perf/thermalboost.conf
 vendor/etc/powerhint.xml
-vendor/etc/public.libraries.txt
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
 vendor/etc/sap.conf
 vendor/etc/sec_config
