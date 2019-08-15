@@ -469,7 +469,6 @@ vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
 vendor/lib/libqtigef.so
-vendor/lib/librmp.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsettings.so
@@ -962,7 +961,6 @@ vendor/lib64/libril.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/librilutils.so
 vendor/lib64/librmnetctl.so
-vendor/lib64/librmp.so
 vendor/lib64/librpmb.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
