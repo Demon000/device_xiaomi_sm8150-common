@@ -424,7 +424,6 @@ vendor/lib/libdrmtime.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
-vendor/lib/libFlacSwDec.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
@@ -934,7 +933,6 @@ vendor/lib64/libdrmutils.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libFaceGrade.so
-vendor/lib64/libFlacSwDec.so
 vendor/lib64/libflp.so
 vendor/lib64/libgameoptfeature.so
 vendor/lib64/libgarden.so
