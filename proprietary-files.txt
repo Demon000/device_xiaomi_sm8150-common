@@ -428,8 +428,6 @@ vendor/lib/libhdr_tm.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libidl.so
 vendor/lib/libjson.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterutils.so
 vendor/lib/liblistenjni.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib/libllvm-glnext.so
