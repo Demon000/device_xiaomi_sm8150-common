@@ -440,11 +440,6 @@ vendor/lib/libmmosal_proprietary.so
 vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmulawdec.so
 vendor/lib/libnbl_trusty.so
-vendor/lib/libnetmgr.so
-vendor/lib/libnetmgr_common.so
-vendor/lib/libnetmgr_nr_fusion.so
-vendor/lib/libnetmgr_rmnet_ext.so
-vendor/lib/libnlnetmgr.so
 vendor/lib/libnpu.so
 vendor/lib/liboemaids_vendor.so
 vendor/lib/liboemcrypto.so
