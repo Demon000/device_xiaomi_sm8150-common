@@ -469,7 +469,6 @@ vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
 vendor/lib/libqtigef.so
-vendor/lib/libremosaic_daemon.so
 vendor/lib/librmp.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsensorslog.so
