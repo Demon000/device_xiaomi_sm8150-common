@@ -431,7 +431,6 @@ vendor/lib/libgcs.so
 vendor/lib/libgf_hal.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
