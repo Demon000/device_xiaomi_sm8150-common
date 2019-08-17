@@ -133,7 +133,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.enable-scan=true \
     mm.enable.smoothstreaming=true \
     mmp.enable.3g2=true \
-    media.settings.xml=/system/etc/media_profiles_vendor.xml \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
     persist.mm.enable.prefetch=true
 
 # Memory
