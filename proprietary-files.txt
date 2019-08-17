@@ -406,7 +406,6 @@ vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
-vendor/etc/IPACM_cfg.xml
 vendor/etc/izat.conf
 vendor/etc/listen_platform_info.xml
 vendor/etc/lm/AppClassifierFeature.xml
