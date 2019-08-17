@@ -83,8 +83,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.df.ul_mode=5 \
     persist.data.wda.enable=true \
     persist.vendor.data.iwlan.enable=true \
-    persist.vendor.data.mode=concurrent \
-    ro.vendor.use_data_netmgrd=true
+    persist.vendor.data.mode=concurrent
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
