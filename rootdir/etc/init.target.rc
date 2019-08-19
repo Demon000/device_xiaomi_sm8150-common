@@ -246,7 +246,6 @@ on charger
     setprop sys.usb.configfs 1
     mkdir /data/vendor/charge_logger 0771 system system
     start charge_logger
-    start leds-sh
     mkdir /mnt/vendor/persist
     wait /dev/block/platform/soc/1d84000.ufshc/by-name/persist
     mount ext4 /dev/block/bootdevice/by-name/persist /mnt/vendor/persist nosuid nodev barrier=1
@@ -300,11 +299,6 @@ service vendor.mdm_helper /vendor/bin/mdm_helper
     class core
     group system wakelock
     disabled
-
-service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
-    class main
-    oneshot
-
 
 service vendor.imsrcsservice /vendor/bin/imsrcsd
     class main
@@ -377,11 +371,6 @@ on property:init.svc.surfaceflinger=restarting
     stop displayfeature
 
 service panel-info-sh /system/vendor/bin/sh /vendor/etc/init.panel_info.sh
-    class core
-    user root
-    oneshot
-
-service leds-sh /system/vendor/bin/sh /vendor/etc/init.leds.sh
     class core
     user root
     oneshot
