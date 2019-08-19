@@ -150,6 +150,7 @@ on charger
 
     start qcom-post-boot
     start vendor.hvdcp_opti
+    start mi_thermald
 
 service vendor.qseecomd /vendor/bin/qseecomd
     class core
@@ -229,3 +230,9 @@ service remosaic_daemon /vendor/bin/remosaic_daemon
    class late_start
    user camera
    group camera
+
+service mi_thermald /system/vendor/bin/mi_thermald
+    class main
+    user root
+    group system
+    seclabel u:r:mi_thermald:s0
