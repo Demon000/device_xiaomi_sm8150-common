@@ -248,8 +248,6 @@ case "$target" in
         done
     done
 
-    echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
-
     configure_memory_parameters
 
     echo "18432,23040,27648,32256,85296,120640" > /sys/module/lowmemorykiller/parameters/minfree
