@@ -151,7 +151,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
-# RCS and IMS
+# RCS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.rcs.supported=0
 
