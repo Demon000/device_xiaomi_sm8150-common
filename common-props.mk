@@ -153,7 +153,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # RCS
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.rcs.supported=0
+    persist.rcs.supported=1
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
