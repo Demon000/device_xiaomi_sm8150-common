@@ -110,10 +110,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# Display
-PRODUCT_PACKAGES += \
-    libvulkan
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -329,6 +325,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.host.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.xml
 
 # Vulkan
+PRODUCT_PACKAGES += \
+    libvulkan
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute.xml \
     frameworks/native/data/etc/android.hardware.vulkan.level-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level.xml \
