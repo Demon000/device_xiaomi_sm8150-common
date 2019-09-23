@@ -342,8 +342,6 @@ vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
 vendor/lib/libidl.so
 vendor/lib/libjson.so
-vendor/lib/liblistenjni.so
-vendor/lib/liblistensoundmodel2.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libmdmdetect.so
@@ -666,8 +664,6 @@ vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/liblearningmodule.so
-vendor/lib64/liblistenjni.so
-vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libloc_api_v02.so
