@@ -91,7 +91,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.disable_decimation=1 \
     vendor.display.disable_excl_rect=0 \
     vendor.display.disable_hw_recovery=0 \
-    vendor.display.disable_inline_rotator=1
+    vendor.display.disable_inline_rotator=1 \
+    vendor.display.disable_scaler=0 \
+    vendor.display.enable_default_color_mode=0 \
+    vendor.display.enable_null_display=0
 
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -103,10 +106,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.egl.hw=0 \
+    debug.mdpcomp.logs=0 \
     debug.sf.disable_backpressure=1 \
     debug.sf.enable_hwc_vds=1 \
+    debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1 \
-    ro.opengles.version=196610
+    ro.opengles.version=196610 \
+    vendor.gralloc.disable_ubwc=0
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
