@@ -57,7 +57,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.btstack.connect.peer_earbud=true \
     persist.vendor.btstack.enable.splita2dp=true \
     persist.vendor.btstack.enable.twsplus=true \
-    ro.bluetooth.library_name=libbluetooth_qti.so \
     vendor.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee
 
