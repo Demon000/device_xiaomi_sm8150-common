@@ -90,6 +90,7 @@ on boot
 
     setprop sys.usb.configfs 1
     setprop sys.usb.controller "a600000.dwc3"
+    setprop sys.mtp.device_type 2
 
 on property:sys.usb.config=rndis && property:sys.usb.configfs=1
     write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "rndis"
