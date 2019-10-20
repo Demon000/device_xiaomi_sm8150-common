@@ -43,9 +43,6 @@ lib64/libdpmtcm.so
 lib64/libsdm-disp-apis.so
 lib64/vendor.display.color@1.0.so
 
-# Hotword Enrollment
--priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED
-
 # IMS
 -app/uceShimService/uceShimService.apk
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
