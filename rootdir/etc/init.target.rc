@@ -45,10 +45,6 @@ on init
     wait /dev/block/platform/soc/1d84000.ufshc
     symlink /dev/block/platform/soc/1d84000.ufshc /dev/block/bootdevice
 
-    start logd
-    start vendor.qseecomd
-    start keymaster-4-0
-
 on early-fs
     start vold
 
@@ -58,9 +54,7 @@ on fs
 
     mkdir /mnt/vendor/persist/data 0700 system system
     mkdir /mnt/vendor/persist/audio 0755 system system
-
-on post-fs
-    write /dev/ipa 1
+    mkdir /mnt/vendor/persist/camera 0777 root root
 
 on late-fs
     wait_for_prop hwservicemanager.ready true
@@ -108,11 +102,6 @@ on boot
     chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
     chmod 0660 /dev/cpuset/camera-daemon/tasks
 
-    # Create netmgr recovery folder
-    mkdir /data/vendor/netmgr/recovery 0700 radio radio
-    write /data/vendor/netmgr/recovery/recovery_info ""
-    chown radio radio /data/vendor/netmgr/recovery/recovery_info
-
     chown system system /sys/class/thermal/thermal_message/sconfig
 
 service vendor.pd_mapper /vendor/bin/pd-mapper
@@ -137,7 +126,6 @@ on property:init.svc.vendor.per_mgr=running
 
 on property:sys.shutdown.requested=*
     stop vendor.per_proxy
-    stop vendor.ims_rtp_daemon
 
 on charger
     load_system_props
@@ -150,12 +138,6 @@ on charger
 
     start qcom-post-boot
     start vendor.hvdcp_opti
-    start mi_thermald
-
-service vendor.qseecomd /vendor/bin/qseecomd
-    class core
-    user root
-    group root
 
 service vendor.thermal-engine /vendor/bin/thermal-engine
    class main
@@ -166,49 +148,18 @@ service vendor.thermal-engine /vendor/bin/thermal-engine
    socket thermal-send-rule stream 0660 system system
    group root
 
-service vendor.adsprpcd /vendor/bin/adsprpcd
-   class main
-   user root
-   group media
-
-service vendor.adsprpcd_audiopd /vendor/bin/adsprpcd audiopd
-   class main
-   user media
-   group media
-
-service vendor.cdsprpcd /vendor/bin/cdsprpcd
-   class main
-   user system
-   group system
-
 service vendor.imsqmidaemon /vendor/bin/imsqmidaemon
     class main
-    user system
+    user radio
     socket ims_qmid stream 0660 system radio
     group radio log diag
 
 service vendor.imsdatadaemon /vendor/bin/imsdatadaemon
     class main
-    user system
+    user radio
     socket ims_datad stream 0660 system radio
-    group system wifi radio inet log diag
+    group radio wifi inet log diag
     disabled
-
-service vendor.imsrcsservice /vendor/bin/imsrcsd
-    class main
-    user system
-    group radio diag inet log wakelock
-
-on property:vendor.ims.QMI_DAEMON_STATUS=1
-    start vendor.imsdatadaemon
-
-service vendor.ims_rtp_daemon /vendor/bin/ims_rtp_daemon
-   class main
-   user system
-   group radio diag inet log
-
-on property:vendor.ims.DATA_DAEMON_STATUS=1
-    restart vendor.ims_rtp_daemon
 
 service vendor.hvdcp_opti /vendor/bin/hvdcp_opti
     class main
@@ -230,9 +181,3 @@ service remosaic_daemon /vendor/bin/remosaic_daemon
    class late_start
    user camera
    group camera
-
-service mi_thermald /system/vendor/bin/mi_thermald
-    class main
-    user root
-    group system
-    seclabel u:r:mi_thermald:s0
