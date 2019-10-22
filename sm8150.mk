@@ -241,6 +241,9 @@ PRODUCT_PACKAGES += \
     Tag
 
 PRODUCT_PACKAGES += \
+    libnqnfc_nci_jni
+
+PRODUCT_PACKAGES += \
     nfc_nci.nqx.default.hw \
     vendor.nxp.hardware.nfc@1.1-service
 
