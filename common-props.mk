@@ -144,10 +144,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapsize=512m \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heaptargetutilization=0.75 \
-    dalvik.vm.isa.arm.features=default \
-    dalvik.vm.isa.arm.variant=cortex-a75 \
-    dalvik.vm.isa.arm64.features=default \
-    dalvik.vm.isa.arm64.variant=kryo300 \
     ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Netflix custom property
