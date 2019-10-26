@@ -139,12 +139,6 @@ on charger
     start qcom-post-boot
     start vendor.hvdcp_opti
 
-service vendor.qseecomd /vendor/bin/qseecomd
-    class core
-    user root
-    group root
-    shutdown critical
-
 service vendor.thermal-engine /vendor/bin/thermal-engine
    class main
    user root
