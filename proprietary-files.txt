@@ -430,6 +430,7 @@ vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
 vendor/lib/libperfgluelayer.so
+-vendor/lib/libplatformconfig.so
 vendor/lib/libqcodec2.so
 vendor/lib/libqdMetaData.so
 vendor/lib/libqmi.so
@@ -781,6 +782,7 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfconfig.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperipheral_client.so
+-vendor/lib64/libplatformconfig.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqcrilFramework.so
