@@ -233,6 +233,7 @@ vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.mi_thermald.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/ipa_fws.rc
+vendor/etc/init/ipacm.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qcrild.rc
