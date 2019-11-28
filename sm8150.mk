@@ -372,6 +372,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     wifi-mac-generator
 
+PRODUCT_PACKAGES += \
+   vendor.qti.hardware.wifi.hostapd@1.1 \
+   vendor.qti.hardware.wifi.supplicant@2.1
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
