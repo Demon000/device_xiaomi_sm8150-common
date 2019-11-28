@@ -447,7 +447,6 @@ vendor/lib/libqsap_sdk.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
-vendor/lib/libqti_vndfwk_detect.so
 vendor/lib/libqtigef.so
 vendor/lib/libsettings.so
 vendor/lib/libslimclient.so
@@ -815,7 +814,6 @@ vendor/lib64/libqsocket.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libqtikeymaster4.so
 vendor/lib64/librcc.so
 vendor/lib64/libremosaic_daemon.so
