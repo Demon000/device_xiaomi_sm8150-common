@@ -101,8 +101,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
 vendor/bin/hw/android.hardware.power@1.2-service
-vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/bin/hw/hostapd
 vendor/bin/hw/qcrild
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -114,7 +112,6 @@ vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/bin/hw/wpa_supplicant
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -220,12 +217,10 @@ vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
 vendor/etc/init/android.hardware.power@1.2-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/cnd.rc
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
 vendor/etc/init/dpmQmiMgr.rc
-vendor/etc/init/hostapd.android.rc
 vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
@@ -686,8 +681,6 @@ vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libCB.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
-vendor/lib64/libcert_parse.wpa_s.so
-vendor/lib64/libcld80211.so
 vendor/lib64/libclient2slpi.notifier.so
 vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
@@ -735,8 +728,6 @@ vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/liblearningmodule.so
 vendor/lib64/libllvm-glnext.so
@@ -860,10 +851,7 @@ vendor/lib64/libvppclient.so
 vendor/lib64/libvpphcp.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
-vendor/lib64/libwifi-hal.so
-vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwms.so
-vendor/lib64/libwpa_client.so
 vendor/lib64/libwqe.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/libXMFD_AgeGender.so
@@ -940,7 +928,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so
