@@ -4,3 +4,7 @@
 
 # WiFi
 /vendor/bin/wifi-mac-generator                                                                          u:object_r:wifi-mac-generator_exec:s0
+
+# Xiaomi thermal daemon
+/vendor/bin/mi_thermald		u:object_r:mi_thermald_exec:s0
+/data/vendor/thermal(/.*)?          u:object_r:thermal_data_file:s0
