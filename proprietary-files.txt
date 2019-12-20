@@ -81,7 +81,6 @@ product/framework/QtiTelephonyServicelibrary.jar
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/adpl
 vendor/bin/adsprpcd
-vendor/bin/ATFWD-daemon
 vendor/bin/cdsprpcd
 vendor/bin/cnd
 vendor/bin/cnss-daemon
@@ -879,7 +878,6 @@ vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so
 vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so
