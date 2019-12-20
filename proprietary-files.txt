@@ -1,13 +1,3 @@
-# CNE
-product/framework/com.quicinc.cne.api-V1.1-java.jar
-product/framework/com.quicinc.cne.constants-V1.0-java.jar
-product/framework/com.quicinc.cne.constants-V2.0-java.jar
-product/framework/com.quicinc.cne.constants-V2.1-java.jar
-product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
-product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
-product/lib64/vendor.qti.hardware.data.latency@1.0.so
-product/lib64/vendor.qti.latency@2.0.so
-
 # DPM
 framework/tcmclient.jar
 product/bin/dpmd
