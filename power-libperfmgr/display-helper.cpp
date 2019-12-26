@@ -15,7 +15,7 @@
  */
 
 #define LOG_NIDEBUG 0
-#define LOG_TAG "android.hardware.power@1.3-service.pixel-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.3-service.xiaomi_sm8150"
 
 #include <dlfcn.h>
 #include <errno.h>
