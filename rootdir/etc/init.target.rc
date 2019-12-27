@@ -112,6 +112,11 @@ on property:sys.boot_completed=1
     write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/restricted/cpus 0-3
 
+on property:vendor.post_boot.parsed=1
+    # Enable idle state listener
+    write /sys/class/drm/card0/device/idle_encoder_mask 1
+    write /sys/class/drm/card0/device/idle_timeout_ms 100
+
 service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
     user system
