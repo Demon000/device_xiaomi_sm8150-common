@@ -27,21 +27,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-target=`getprop ro.board.platform`
-
-start_msm_irqbalance_msmnile()
-{
-         if [ -f /vendor/bin/msm_irqbalance ]; then
-                start vendor.msm_irqbalance
-         fi
-}
-
-case "$target" in
-    "msmnile")
-        start_msm_irqbalance_msmnile
-        ;;
-esac
-
 #
 # Make modem config folder and copy firmware config to that folder for RIL
 #
