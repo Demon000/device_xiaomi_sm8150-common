@@ -117,6 +117,9 @@ on property:vendor.post_boot.parsed=1
     write /sys/class/drm/card0/device/idle_encoder_mask 1
     write /sys/class/drm/card0/device/idle_timeout_ms 100
 
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
 service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
     user system
