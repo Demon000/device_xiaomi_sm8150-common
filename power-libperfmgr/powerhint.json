@@ -308,7 +308,7 @@
       "Values": [
         "CAMERA_STREAMING",
         "CAMERA_STREAMING_4K",
-	"CAMERA_STREAMING_60FPS",
+        "CAMERA_STREAMING_60FPS",
         "CAMERA_STREAMING_SECURE",
         "SUSTAINED_PERFORMANCE",
         ""
