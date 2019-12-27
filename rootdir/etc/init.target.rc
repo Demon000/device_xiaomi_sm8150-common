@@ -44,6 +44,27 @@ on init
     wait /dev/block/platform/soc/1d84000.ufshc
     symlink /dev/block/platform/soc/1d84000.ufshc /dev/block/bootdevice
 
+    # Add a cpuset for the camera daemon
+    mkdir /dev/cpuset/camera-daemon
+    write /dev/cpuset/camera-daemon/cpus 0-7
+    write /dev/cpuset/camera-daemon/mems 0
+    chown cameraserver cameraserver /dev/cpuset/camera-daemon
+    chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
+    chmod 0660 /dev/cpuset/camera-daemon/tasks
+
+    # Create an stune group for the camera-daemon
+    mkdir /dev/stune/camera-daemon
+    write /dev/stune/camera-daemon/schedtune.prefer_idle 1
+    write /dev/stune/camera-daemon/schedtune.boost 0
+    chown system system /dev/stune/camera-daemon
+    chown system system /dev/stune/camera-daemon/tasks
+    chmod 0660 /dev/stune/camera-daemon/tasks
+
+    # Set default values for foreground and top-app stune
+    write /dev/stune/foreground/schedtune.prefer_idle 1
+    write /dev/stune/top-app/schedtune.boost 10
+    write /dev/stune/top-app/schedtune.prefer_idle 1
+
 on early-fs
     start vold
 
@@ -79,7 +100,17 @@ on boot
     start rmt_storage
     start rfs_access
 
-    # First initialize silver only cpus
+    chown system system /sys/class/thermal/thermal_message/sconfig
+
+on property:sys.boot_completed=1
+    # Setup runtime blkio
+    # value for group_idle is us
+    write /dev/blkio/blkio.weight 1000
+    write /dev/blkio/background/blkio.weight 10
+    write /dev/blkio/blkio.group_idle 2000
+    write /dev/blkio/background/blkio.group_idle 0
+
+    # First setup runtime cpusets only for silver cpus
     write /dev/cpuset/top-app/cpus 0-3
     write /dev/cpuset/foreground/cpus 0-3
 
@@ -89,36 +120,6 @@ on boot
     write /dev/cpuset/background/cpus 0-1
     write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/restricted/cpus 0-3
-
-    # Add a cpuset for the camera daemon
-    mkdir /dev/cpuset/camera-daemon
-    write /dev/cpuset/camera-daemon/cpus 0-7
-    write /dev/cpuset/camera-daemon/mems 0
-    chown cameraserver cameraserver /dev/cpuset/camera-daemon
-    chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
-    chmod 0660 /dev/cpuset/camera-daemon/tasks
-
-    # Set default values for foreground and top-app stune
-    write /dev/stune/foreground/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.boost 10
-    write /dev/stune/top-app/schedtune.prefer_idle 1
-
-    # Create an stune group for the camera-daemon
-    mkdir /dev/stune/camera-daemon
-    write /dev/stune/camera-daemon/schedtune.prefer_idle 1
-    write /dev/stune/camera-daemon/schedtune.boost 0
-    chown system system /dev/stune/camera-daemon
-    chown system system /dev/stune/camera-daemon/tasks
-    chmod 0660 /dev/stune/camera-daemon/tasks
-
-    # Setup runtime blkio
-    # value for group_idle is us
-    write /dev/blkio/blkio.weight 1000
-    write /dev/blkio/background/blkio.weight 10
-    write /dev/blkio/blkio.group_idle 2000
-    write /dev/blkio/background/blkio.group_idle 0
-
-    chown system system /sys/class/thermal/thermal_message/sconfig
 
 service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
