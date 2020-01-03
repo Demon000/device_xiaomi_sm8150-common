@@ -68,7 +68,7 @@ product/framework/QtiTelephonyServicelibrary.jar
 -vendor/app/CneApp/CneApp.apk
 -vendor/app/IWlanService/IWlanService.apk
 -vendor/app/pasrservice/pasrservice.apk
--vendor/app/TimeService/TimeService.apk
+-vendor/app/TimeService/TimeService.apk;:timeservice_app_cert
 vendor/bin/adpl
 vendor/bin/adsprpcd
 vendor/bin/cdsprpcd
