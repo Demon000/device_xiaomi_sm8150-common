@@ -200,6 +200,7 @@ vendor/etc/init/vppservice.rc
 vendor/etc/IPACM_cfg.xml
 vendor/etc/msm_irqbalance.conf
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
+vendor/etc/sdr_config.cfg
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/bmp285_0.json
