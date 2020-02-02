@@ -108,6 +108,7 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
 # Media
 TARGET_USES_ION := true
+TARGET_DISABLED_UBWC := true
 
 # NFC
 TARGET_USES_NQ_NFC := true
