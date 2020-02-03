@@ -100,8 +100,6 @@ on boot
     start rmt_storage
     start rfs_access
 
-    chown system system /sys/class/thermal/thermal_message/sconfig
-
 on property:sys.boot_completed=1
     # Setup runtime blkio
     # value for group_idle is us
