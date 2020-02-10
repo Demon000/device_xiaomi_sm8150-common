@@ -248,7 +248,7 @@ case "$target" in
 
     configure_memory_parameters
 
-    echo "18432,23040,27648,32256,85296,120640" > /sys/module/lowmemorykiller/parameters/minfree
+    echo "18432,23040,27648,38708,102356,144768" > /sys/module/lowmemorykiller/parameters/minfree
     ;;
 esac
 
