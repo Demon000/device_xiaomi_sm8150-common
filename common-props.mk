@@ -176,6 +176,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno \
+    ro.surface_flinger.has_HDR_display=true \
+    ro.surface_flinger.has_wide_color_display=true \
     vendor.gralloc.disable_ubwc=0
 
 # IMS
