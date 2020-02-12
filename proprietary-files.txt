@@ -621,7 +621,6 @@ vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libgps.utils.so
 vendor/lib64/libgsl.so
-vendor/lib64/libgui_vendor.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libhdr_tm.so
