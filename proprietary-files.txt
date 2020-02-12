@@ -732,7 +732,6 @@ vendor/lib64/libswvdec.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libtime_genoff.so
-vendor/lib64/libtinycompress.so
 vendor/lib64/libtinyxml.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
