@@ -1,3 +1,18 @@
+# Display (from LA.UM.8.1.r1-13500-sm8150.0)
+vendor/lib64/libdisp-aba.so|a7f8975e5a323100bb9e5feb14085c0c4479ce96
+vendor/lib64/libdisplayqos.so|8e5f13a5b7ea0efa8db2902c8719380d710bc857
+vendor/lib64/libdpps.so|d4e1ae93184554bbbb2c896d8afd3ee5eef8ff5c
+vendor/lib64/libhdr_tm.so|4f08d65045893e0ec2b351581d6378f2e187ca82
+vendor/lib64/libqseed3.so|3fb480721b26a2df0a2a96359814ef37a5da9148
+vendor/lib64/libsdedrm.so|1a6d6ac050678dbc2b7d724ff7c642e4946b573b
+vendor/lib64/libsdm-color.so|76967da4af05736649eab5568f59861a16be33bd
+vendor/lib64/libsdm-colormgr-algo.so|5f497ba10168722455b0a3b80e7e3dca85e00c8f
+vendor/lib64/libsdm-diag.so|1044fd68ba610d08d7a02765a95563cc90dd5a54
+vendor/lib64/libsdm-disp-vndapis.so|6f4fd3a5a253ec4dff787de1ad6e67d07e921d94
+vendor/lib64/libsdmextension.so|fc9994028e62ed31223b9a494c4bf4a469b855a9
+vendor/lib64/libtinyxml.so|6b469580f781995a2e78fe1b5c19930040a8798e
+vendor/lib64/libtinyxml2_1.so|92adc9b612766cda6fa50f4c36d046b1a6da0816
+
 # DPM
 framework/tcmclient.jar
 product/bin/dpmd
@@ -594,11 +609,8 @@ vendor/lib64/libconfigdb.so
 vendor/lib64/libcpion.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libdiag.so
-vendor/lib64/libdisp-aba.so
-vendor/lib64/libdisplayqos.so
 vendor/lib64/libdng_sdk.so
 vendor/lib64/libdpmqmihal.so
-vendor/lib64/libdpps.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libdsi_netctrl.so
@@ -616,7 +628,6 @@ vendor/lib64/libgps.utils.so
 vendor/lib64/libgsl.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libhdcpsrm.so
-vendor/lib64/libhdr_tm.so
 vendor/lib64/libhexagon_nn_stub.so
 vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/libidl.so
@@ -683,7 +694,6 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsap_sdk.so
 vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libqseed3.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libqtikeymaster4.so
 vendor/lib64/librcc.so
@@ -696,12 +706,6 @@ vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/librmnetctl.so
 vendor/lib64/librpmb.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsettings.so
@@ -724,8 +728,6 @@ vendor/lib64/libswvdec.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libtime_genoff.so
-vendor/lib64/libtinyxml.so
-vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libultrasound.so
