@@ -133,9 +133,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.df.color.temp=0 \
-    persist.vendor.df.extcolor.proc=0 \
-    ro.vendor.df.effect.conflict=1 \
     ro.vendor.display.cabl=0 \
     ro.vendor.display.ad=1 \
     ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
