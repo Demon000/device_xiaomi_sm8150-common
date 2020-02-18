@@ -1,3 +1,11 @@
+# Adaptive display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.display.cabl=0 \
+    ro.vendor.display.ad=1 \
+    ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
+    ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
+    ro.vendor.display.sensortype=2
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     aaudio.hw_burst_min_usec=2000 \
@@ -133,11 +141,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.display.cabl=0 \
-    ro.vendor.display.ad=1 \
-    ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
-    ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
-    ro.vendor.display.sensortype=2 \
+    debug.egl.hw=0 \
+    debug.mdpcomp.logs=0 \
+    debug.sf.hw=0 \
+    ro.surface_flinger.has_HDR_display=true \
+    ro.surface_flinger.has_wide_color_display=true \
+    vendor.gralloc.disable_ubwc=0 \
     vendor.display.comp_mask=0 \
     vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0 \
     vendor.display.disable_decimation=1 \
@@ -160,22 +169,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.egl.hw=0 \
-    debug.mdpcomp.logs=0 \
     debug.sf.disable_backpressure=1 \
     debug.sf.early_phase_offset_ns=500000 \
     debug.sf.early_app_phase_offset_ns=500000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.enable_hwc_vds=1 \
-    debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1 \
     ro.opengles.version=196610 \
     ro.hardware.egl=adreno \
-    ro.hardware.vulkan=adreno \
-    ro.surface_flinger.has_HDR_display=true \
-    ro.surface_flinger.has_wide_color_display=true \
-    vendor.gralloc.disable_ubwc=0
+    ro.hardware.vulkan=adreno
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
