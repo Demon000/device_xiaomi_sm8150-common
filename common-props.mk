@@ -175,7 +175,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.enable_hwc_vds=1 \
-    debug.sf.latch_unsignaled=1 \
     ro.opengles.version=196610 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
