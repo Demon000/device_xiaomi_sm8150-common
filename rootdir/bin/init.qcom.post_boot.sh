@@ -47,9 +47,6 @@ function configure_memory_parameters() {
     # vmpressure_file_min threshold is always set slightly higher
     # than LMK minfree's last bin value for all targets. It is calculated as
     # vmpressure_file_min = (last bin - second last bin ) + last bin
-    #
-    # Set allocstall_threshold to 0 for all targets.
-    #
 
     # Set Zram disk size=1GB for >=2GB Non-Go targets.
     echo 1073741824 > /sys/block/zram0/disksize
@@ -86,11 +83,6 @@ function configure_memory_parameters() {
     # use Google default LMK series for all 64-bit targets >=2GB.
     echo 1 > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
     echo 1 > /sys/module/lowmemorykiller/parameters/oom_reaper
-
-    # Set allocstall_threshold to 0 for all targets.
-    # Set swappiness to 100 for all targets
-    echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
-    echo 100 > /proc/sys/vm/swappiness
 
     configure_read_ahead_kb_values
 }
