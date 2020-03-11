@@ -1,15 +1,15 @@
-# Display (from LA.UM.8.1.r1-13500-sm8150.0)
+# Display (from LA.UM.8.1.r1-14300-sm8150.0)
 vendor/lib64/libdisp-aba.so|a7f8975e5a323100bb9e5feb14085c0c4479ce96
 vendor/lib64/libdisplayqos.so|8e5f13a5b7ea0efa8db2902c8719380d710bc857
-vendor/lib64/libdpps.so|d4e1ae93184554bbbb2c896d8afd3ee5eef8ff5c
-vendor/lib64/libhdr_tm.so|4f08d65045893e0ec2b351581d6378f2e187ca82
+vendor/lib64/libdpps.so|85faef1fa271d0f637e6969f74d3c2e66f7e2bc3
+vendor/lib64/libhdr_tm.so|a04a0abf52d940ddb4916e74d48cc2b16526e355
 vendor/lib64/libqseed3.so|3fb480721b26a2df0a2a96359814ef37a5da9148
-vendor/lib64/libsdedrm.so|1a6d6ac050678dbc2b7d724ff7c642e4946b573b
-vendor/lib64/libsdm-color.so|76967da4af05736649eab5568f59861a16be33bd
+vendor/lib64/libsdedrm.so|45f1fb909924ff963bd3d97883150613fd0b34b2
+vendor/lib64/libsdm-color.so|fc5d712de30c255b187bd2c9e48849cce9a2e573
 vendor/lib64/libsdm-colormgr-algo.so|5f497ba10168722455b0a3b80e7e3dca85e00c8f
 vendor/lib64/libsdm-diag.so|1044fd68ba610d08d7a02765a95563cc90dd5a54
 vendor/lib64/libsdm-disp-vndapis.so|6f4fd3a5a253ec4dff787de1ad6e67d07e921d94
-vendor/lib64/libsdmextension.so|fc9994028e62ed31223b9a494c4bf4a469b855a9
+vendor/lib64/libsdmextension.so|a9af4f371cf6d39f4ee89cbba4de8250bc5db1d6
 vendor/lib64/libtinyxml.so|6b469580f781995a2e78fe1b5c19930040a8798e
 vendor/lib64/libtinyxml2_1.so|92adc9b612766cda6fa50f4c36d046b1a6da0816
 
