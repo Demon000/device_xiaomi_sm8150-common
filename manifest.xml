@@ -204,6 +204,7 @@
         <interface>
             <name>IComponentStore</name>
             <instance>default</instance>
+            <instance>software</instance>
         </interface>
         <fqname>@1.0::IComponentStore/default</fqname>
     </hal>
