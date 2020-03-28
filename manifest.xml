@@ -249,7 +249,6 @@
         <fqname>@1.2::IDevice/qti-gpu</fqname>
         <fqname>@1.2::IDevice/qti-hta</fqname>
     </hal>
-<!--
     <hal format="hidl">
         <name>android.hardware.nfc</name>
         <transport>hwbinder</transport>
@@ -260,7 +259,6 @@
         </interface>
         <fqname>@1.2::INfc/default</fqname>
     </hal>
--->
     <hal format="hidl">
         <name>android.hardware.power</name>
         <transport>hwbinder</transport>
@@ -456,7 +454,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-<!--
     <hal format="hidl">
         <name>vendor.nxp.hardware.nfc</name>
         <transport>hwbinder</transport>
@@ -467,7 +464,6 @@
         </interface>
         <fqname>@1.2::INqNfc/default</fqname>
     </hal>
--->
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
