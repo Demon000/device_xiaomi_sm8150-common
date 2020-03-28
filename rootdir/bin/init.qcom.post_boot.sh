@@ -29,10 +29,6 @@
 
 target=`getprop ro.board.platform`
 
-function configure_read_ahead_kb_values() {
-    echo 512 > /sys/block/sda/bdi/read_ahead_kb
-}
-
 function configure_memory_parameters() {
     # Set Memory parameters.
     #
@@ -83,8 +79,6 @@ function configure_memory_parameters() {
     # use Google default LMK series for all 64-bit targets >=2GB.
     echo 1 > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
     echo 1 > /sys/module/lowmemorykiller/parameters/oom_reaper
-
-    configure_read_ahead_kb_values
 }
 
 case "$target" in
