@@ -1,10 +1,3 @@
-# Adaptive display
-ro.vendor.display.cabl=0
-ro.vendor.display.ad=1
-ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
-ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
-ro.vendor.display.sensortype=2
-
 # Audio
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
