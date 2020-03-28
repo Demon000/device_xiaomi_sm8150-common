@@ -618,7 +618,6 @@ vendor/lib64/libdisp-aba.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdng_sdk.so
 vendor/lib64/libdpmqmihal.so
-vendor/lib64/libdpps.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libdsi_netctrl.so
