@@ -694,6 +694,7 @@ vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libnpu.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libOpenCL.so
+vendor/lib64/libops.so
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfconfig.so
